@@ -1,0 +1,4 @@
+G:\C# OOP\exams\15 август 2021\03. Unit Tests_Skeleton\Robots.Tests\obj\Debug\netcoreapp3.0\Robots.Tests.csproj.AssemblyReference.cache
+G:\C# OOP\exams\15 август 2021\03. Unit Tests_Skeleton\Robots.Tests\obj\Debug\netcoreapp3.0\Robots.Tests.AssemblyInfoInputs.cache
+G:\C# OOP\exams\15 август 2021\03. Unit Tests_Skeleton\Robots.Tests\obj\Debug\netcoreapp3.0\Robots.Tests.AssemblyInfo.cs
+G:\C# OOP\exams\15 август 2021\03. Unit Tests_Skeleton\Robots.Tests\obj\Debug\netcoreapp3.0\Robots.Tests.csproj.CoreCompileInputs.cache

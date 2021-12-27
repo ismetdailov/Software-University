@@ -1,0 +1,13 @@
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\bin\Debug\netcoreapp3.0\AquaSho.exe
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\bin\Debug\netcoreapp3.0\AquaSho.deps.json
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\bin\Debug\netcoreapp3.0\AquaSho.runtimeconfig.json
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\bin\Debug\netcoreapp3.0\AquaSho.runtimeconfig.dev.json
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\bin\Debug\netcoreapp3.0\AquaSho.dll
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\bin\Debug\netcoreapp3.0\AquaSho.pdb
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\obj\Debug\netcoreapp3.0\AquaSho.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\obj\Debug\netcoreapp3.0\AquaSho.AssemblyInfoInputs.cache
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\obj\Debug\netcoreapp3.0\AquaSho.AssemblyInfo.cs
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\obj\Debug\netcoreapp3.0\AquaSho.csproj.CoreCompileInputs.cache
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\obj\Debug\netcoreapp3.0\AquaSho.dll
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\obj\Debug\netcoreapp3.0\AquaSho.pdb
+G:\C# OOP\exams\10 april exam 2021\01. Structure_Skeleton\AquaShop\obj\Debug\netcoreapp3.0\AquaSho.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\bin\Debug\netcoreapp3.1\TheRace.deps.json
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\bin\Debug\netcoreapp3.1\TheRace.dll
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\bin\Debug\netcoreapp3.1\TheRace.pdb
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\obj\Debug\netcoreapp3.1\TheRace.csproj.AssemblyReference.cache
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\obj\Debug\netcoreapp3.1\TheRace.AssemblyInfoInputs.cache
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\obj\Debug\netcoreapp3.1\TheRace.AssemblyInfo.cs
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\obj\Debug\netcoreapp3.1\TheRace.csproj.CoreCompileInputs.cache
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\obj\Debug\netcoreapp3.1\TheRace.dll
+G:\C# OOP\exams\22 august 2020\03. Unit Tests_Skeleton\UnitTests-Skeleton\TheRace\obj\Debug\netcoreapp3.1\TheRace.pdb

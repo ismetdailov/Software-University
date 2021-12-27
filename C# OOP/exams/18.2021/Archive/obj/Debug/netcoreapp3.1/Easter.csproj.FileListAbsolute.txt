@@ -1,0 +1,4 @@
+G:\C# OOP\exams\18.2021\Archive\obj\Debug\netcoreapp3.1\Easter.csproj.AssemblyReference.cache
+G:\C# OOP\exams\18.2021\Archive\obj\Debug\netcoreapp3.1\Easter.AssemblyInfoInputs.cache
+G:\C# OOP\exams\18.2021\Archive\obj\Debug\netcoreapp3.1\Easter.AssemblyInfo.cs
+G:\C# OOP\exams\18.2021\Archive\obj\Debug\netcoreapp3.1\Easter.csproj.CoreCompileInputs.cache

@@ -1,0 +1,567 @@
+[
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 6,
+    "Games": [
+      {
+        "Id": 5,
+        "Title": "Warframe",
+        "Developer": "Warframe",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 5,
+        "Title": "Warframe",
+        "Developer": "Warframe",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 5,
+        "Title": "Warframe",
+        "Developer": "Warframe",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 5,
+        "Title": "Warframe",
+        "Developer": "Warframe",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 5,
+        "Title": "Warframe",
+        "Developer": "Warframe",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 5,
+        "Title": "Warframe",
+        "Developer": "Warframe",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 2,
+    "Games": [
+      {
+        "Id": 70,
+        "Title": "Soul at Stake",
+        "Developer": "Soul at Stake",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 70,
+        "Title": "Soul at Stake",
+        "Developer": "Soul at Stake",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 70,
+        "Title": "Soul at Stake",
+        "Developer": "Soul at Stake",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 70,
+        "Title": "Soul at Stake",
+        "Developer": "Soul at Stake",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 70,
+        "Title": "Soul at Stake",
+        "Developer": "Soul at Stake",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Genre": "Nudity",
+    "TotalPlayers": 2,
+    "Games": [
+      {
+        "Id": 15,
+        "Title": "Path of Exile",
+        "Developer": "Path of Exile",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 15,
+        "Title": "Path of Exile",
+        "Developer": "Path of Exile",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 15,
+        "Title": "Path of Exile",
+        "Developer": "Path of Exile",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 15,
+        "Title": "Path of Exile",
+        "Developer": "Path of Exile",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 15,
+        "Title": "Path of Exile",
+        "Developer": "Path of Exile",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 15,
+        "Title": "Path of Exile",
+        "Developer": "Path of Exile",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 15,
+        "Title": "Path of Exile",
+        "Developer": "Path of Exile",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 15,
+        "Title": "Path of Exile",
+        "Developer": "Path of Exile",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 1,
+    "Games": [
+      {
+        "Id": 11,
+        "Title": "Black Desert Online",
+        "Developer": "Black Desert Online",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 11,
+        "Title": "Black Desert Online",
+        "Developer": "Black Desert Online",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 11,
+        "Title": "Black Desert Online",
+        "Developer": "Black Desert Online",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 11,
+        "Title": "Black Desert Online",
+        "Developer": "Black Desert Online",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 11,
+        "Title": "Black Desert Online",
+        "Developer": "Black Desert Online",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 11,
+        "Title": "Black Desert Online",
+        "Developer": "Black Desert Online",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 1,
+    "Games": [
+      {
+        "Id": 20,
+        "Title": "Dead by Daylight",
+        "Developer": "Dead by Daylight",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 20,
+        "Title": "Dead by Daylight",
+        "Developer": "Dead by Daylight",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 20,
+        "Title": "Dead by Daylight",
+        "Developer": "Dead by Daylight",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 20,
+        "Title": "Dead by Daylight",
+        "Developer": "Dead by Daylight",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 20,
+        "Title": "Dead by Daylight",
+        "Developer": "Dead by Daylight",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 20,
+        "Title": "Dead by Daylight",
+        "Developer": "Dead by Daylight",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 20,
+        "Title": "Dead by Daylight",
+        "Developer": "Dead by Daylight",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 20,
+        "Title": "Dead by Daylight",
+        "Developer": "Dead by Daylight",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Genre": "Nudity",
+    "TotalPlayers": 1,
+    "Games": [
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 40,
+        "Title": "Rust",
+        "Developer": "Rust",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Genre": "Nudity",
+    "TotalPlayers": 1,
+    "Games": [
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 63,
+        "Title": "Conan Exiles",
+        "Developer": "Conan Exiles",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Genre": "Nudity",
+    "TotalPlayers": 1,
+    "Games": [
+      {
+        "Id": 74,
+        "Title": "The Witcher 3: Wild Hunt",
+        "Developer": "The Witcher 3: Wild Hunt",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 74,
+        "Title": "The Witcher 3: Wild Hunt",
+        "Developer": "The Witcher 3: Wild Hunt",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 74,
+        "Title": "The Witcher 3: Wild Hunt",
+        "Developer": "The Witcher 3: Wild Hunt",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 74,
+        "Title": "The Witcher 3: Wild Hunt",
+        "Developer": "The Witcher 3: Wild Hunt",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 74,
+        "Title": "The Witcher 3: Wild Hunt",
+        "Developer": "The Witcher 3: Wild Hunt",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 0,
+    "Games": [
+      {
+        "Id": 3,
+        "Title": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "Developer": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 3,
+        "Title": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "Developer": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 3,
+        "Title": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "Developer": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 0,
+    "Games": [
+      {
+        "Id": 12,
+        "Title": "Jurassic World Evolution",
+        "Developer": "Jurassic World Evolution",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 12,
+        "Title": "Jurassic World Evolution",
+        "Developer": "Jurassic World Evolution",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 12,
+        "Title": "Jurassic World Evolution",
+        "Developer": "Jurassic World Evolution",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 12,
+        "Title": "Jurassic World Evolution",
+        "Developer": "Jurassic World Evolution",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 12,
+        "Title": "Jurassic World Evolution",
+        "Developer": "Jurassic World Evolution",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 0,
+    "Games": [
+      {
+        "Id": 25,
+        "Title": "Seeking Dawn",
+        "Developer": "Seeking Dawn",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 25,
+        "Title": "Seeking Dawn",
+        "Developer": "Seeking Dawn",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 25,
+        "Title": "Seeking Dawn",
+        "Developer": "Seeking Dawn",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 25,
+        "Title": "Seeking Dawn",
+        "Developer": "Seeking Dawn",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 25,
+        "Title": "Seeking Dawn",
+        "Developer": "Seeking Dawn",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 0,
+    "Games": [
+      {
+        "Id": 32,
+        "Title": "Hunt Showdown",
+        "Developer": "Hunt Showdown",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 32,
+        "Title": "Hunt Showdown",
+        "Developer": "Hunt Showdown",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Genre": "Violent",
+    "TotalPlayers": 0,
+    "Games": [
+      {
+        "Id": 33,
+        "Title": "Darksiders III",
+        "Developer": "Darksiders III",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 33,
+        "Title": "Darksiders III",
+        "Developer": "Darksiders III",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 33,
+        "Title": "Darksiders III",
+        "Developer": "Darksiders III",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 33,
+        "Title": "Darksiders III",
+        "Developer": "Darksiders III",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      },
+      {
+        "Id": 33,
+        "Title": "Darksiders III",
+        "Developer": "Darksiders III",
+        "Tags": "VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag,VaporStore.Data.Models.GameTag"
+      }
+    ]
+  }
+]

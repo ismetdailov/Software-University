@@ -1,0 +1,102 @@
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.csproj.AssemblyReference.cache
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.GeneratedMSBuildEditorConfig.editorconfig
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.AssemblyInfoInputs.cache
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.AssemblyInfo.cs
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.csproj.CoreCompileInputs.cache
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.exe
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.deps.json
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.runtimeconfig.json
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.runtimeconfig.dev.json
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.pdb
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\AutoMapper.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Castle.Core.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.csproj.CopyComplete
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.pdb
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Model Definition_Skeleton + Datasets\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.genruntimeconfig.cache
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.exe
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.deps.json
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.runtimeconfig.json
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.runtimeconfig.dev.json
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\VaporStore.pdb
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\AutoMapper.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Castle.Core.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.csproj.AssemblyReference.cache
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.GeneratedMSBuildEditorConfig.editorconfig
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.AssemblyInfoInputs.cache
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.AssemblyInfo.cs
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.csproj.CoreCompileInputs.cache
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.csproj.CopyComplete
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.dll
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.pdb
+G:\Entity Framework Core\exams\08 August 2020 28.11.2021\01. Datasets - Copy\VaporStore\obj\Debug\netcoreapp3.1\VaporStore.genruntimeconfig.cache

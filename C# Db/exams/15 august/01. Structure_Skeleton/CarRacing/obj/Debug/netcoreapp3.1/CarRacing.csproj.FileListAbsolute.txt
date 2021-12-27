@@ -1,0 +1,14 @@
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\bin\Debug\netcoreapp3.1\CarRacing.exe
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\bin\Debug\netcoreapp3.1\CarRacing.deps.json
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\bin\Debug\netcoreapp3.1\CarRacing.runtimeconfig.json
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\bin\Debug\netcoreapp3.1\CarRacing.runtimeconfig.dev.json
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\bin\Debug\netcoreapp3.1\CarRacing.dll
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\bin\Debug\netcoreapp3.1\CarRacing.pdb
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\obj\Debug\netcoreapp3.1\CarRacing.csproj.AssemblyReference.cache
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\obj\Debug\netcoreapp3.1\CarRacing.GeneratedMSBuildEditorConfig.editorconfig
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\obj\Debug\netcoreapp3.1\CarRacing.AssemblyInfoInputs.cache
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\obj\Debug\netcoreapp3.1\CarRacing.AssemblyInfo.cs
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\obj\Debug\netcoreapp3.1\CarRacing.csproj.CoreCompileInputs.cache
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\obj\Debug\netcoreapp3.1\CarRacing.dll
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\obj\Debug\netcoreapp3.1\CarRacing.pdb
+G:\Entity Framework Core\exams\15 august\01. Structure_Skeleton\CarRacing\obj\Debug\netcoreapp3.1\CarRacing.genruntimeconfig.cache

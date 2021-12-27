@@ -1,0 +1,14 @@
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\bin\Debug\netcoreapp3.0\Robots.exe
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\bin\Debug\netcoreapp3.0\Robots.deps.json
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\bin\Debug\netcoreapp3.0\Robots.runtimeconfig.json
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\bin\Debug\netcoreapp3.0\Robots.runtimeconfig.dev.json
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\bin\Debug\netcoreapp3.0\Robots.dll
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\bin\Debug\netcoreapp3.0\Robots.pdb
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\obj\Debug\netcoreapp3.0\Robots.csproj.AssemblyReference.cache
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\obj\Debug\netcoreapp3.0\Robots.GeneratedMSBuildEditorConfig.editorconfig
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\obj\Debug\netcoreapp3.0\Robots.AssemblyInfoInputs.cache
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\obj\Debug\netcoreapp3.0\Robots.AssemblyInfo.cs
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\obj\Debug\netcoreapp3.0\Robots.csproj.CoreCompileInputs.cache
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\obj\Debug\netcoreapp3.0\Robots.dll
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\obj\Debug\netcoreapp3.0\Robots.pdb
+G:\Entity Framework Core\exams\15 august\03. Unit Tests_Skeleton (2)\03. Unit Tests_Skeleton\Robots\obj\Debug\netcoreapp3.0\Robots.genruntimeconfig.cache

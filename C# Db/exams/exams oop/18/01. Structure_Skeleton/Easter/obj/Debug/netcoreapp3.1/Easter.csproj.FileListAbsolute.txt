@@ -1,0 +1,14 @@
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\bin\Debug\netcoreapp3.1\Easter.exe
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\bin\Debug\netcoreapp3.1\Easter.deps.json
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\bin\Debug\netcoreapp3.1\Easter.runtimeconfig.json
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\bin\Debug\netcoreapp3.1\Easter.runtimeconfig.dev.json
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\bin\Debug\netcoreapp3.1\Easter.dll
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\bin\Debug\netcoreapp3.1\Easter.pdb
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\obj\Debug\netcoreapp3.1\Easter.csproj.AssemblyReference.cache
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\obj\Debug\netcoreapp3.1\Easter.GeneratedMSBuildEditorConfig.editorconfig
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\obj\Debug\netcoreapp3.1\Easter.AssemblyInfoInputs.cache
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\obj\Debug\netcoreapp3.1\Easter.AssemblyInfo.cs
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\obj\Debug\netcoreapp3.1\Easter.csproj.CoreCompileInputs.cache
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\obj\Debug\netcoreapp3.1\Easter.dll
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\obj\Debug\netcoreapp3.1\Easter.pdb
+G:\Entity Framework Core\exams\exams oop\18\01. Structure_Skeleton\Easter\obj\Debug\netcoreapp3.1\Easter.genruntimeconfig.cache

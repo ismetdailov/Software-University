@@ -1,0 +1,13 @@
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\bin\Debug\netcoreapp3.1\EasterRaces.exe
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\bin\Debug\netcoreapp3.1\EasterRaces.deps.json
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\bin\Debug\netcoreapp3.1\EasterRaces.runtimeconfig.json
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\bin\Debug\netcoreapp3.1\EasterRaces.runtimeconfig.dev.json
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\bin\Debug\netcoreapp3.1\EasterRaces.dll
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\bin\Debug\netcoreapp3.1\EasterRaces.pdb
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.csprojAssemblyReference.cache
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.AssemblyInfoInputs.cache
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.AssemblyInfo.cs
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.csproj.CoreCompileInputs.cache
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.dll
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.pdb
+G:\Entity Framework Core\exams\exams oop\stroqn\01. Structure_Skeleton (1)\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.genruntimeconfig.cache

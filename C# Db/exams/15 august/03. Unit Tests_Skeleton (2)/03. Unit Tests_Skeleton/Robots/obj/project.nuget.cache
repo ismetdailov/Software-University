@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+9iwIxsB7C13Y5VMlqNxI2axSaemxSrfycM+UjFYSUMMw1UJHi+q8DERKMyUvAoMIKnlY02qO5AgzGqyky9Eiw==",
+  "success": true,
+  "projectFilePath": "G:\\Entity Framework Core\\exams\\15 august\\03. Unit Tests_Skeleton (2)\\03. Unit Tests_Skeleton\\Robots\\Robots.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dailo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\dailo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\dailo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\dailo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

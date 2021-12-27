@@ -1,0 +1,16 @@
+{
+  "name": "Numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "03. Number Operations_Resources (1).js",
+  "scripts": {
+    "test": "mocha ./**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}

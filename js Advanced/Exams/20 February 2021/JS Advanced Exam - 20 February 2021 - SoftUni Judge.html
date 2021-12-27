@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://judge.softuni.org/Contests/Practice/Index/2862#2 -->
+<html class="k-webkit k-webkit94"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Advanced Exam - 20 February 2021 - SoftUni Judge</title>
+    <meta name="description" content="Online system for programming competitions">
+    <link href="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/bootstrap" rel="stylesheet">
+<link href="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/kendo" rel="stylesheet">
+<link href="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/styles" rel="stylesheet">
+
+    
+    <link href="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/codemirror" rel="stylesheet">
+<link href="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/submission-page" rel="stylesheet">
+
+
+    <script async="" src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/analytics.js.изтеглен файл"></script><script src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/jquery"></script>
+<script src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/kendo(1)"></script>
+<script src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/global"></script>
+
+</head>
+<body data-new-gr-c-s-check-loaded="14.1034.0" data-gr-ext-installed="">
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-11309924-11', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- Header -->
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="https://judge.softuni.org/" class="navbar-brand">SoftUni Judge</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="https://judge.softuni.org/Contests" class="dropdown-toggle" data-toggle="dropdown">
+                            Contests
+                            <strong class="caret"></strong>
+                        </a>
+                        <ul class="dropdown-menu">
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/15/Programming-Basics">Programming Basics</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/286/Quality-Assurance">Quality Assurance</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/335/Code-Lessons">Code Lessons</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/40/Fundamentals">Fundamentals</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/20/CSharp-Development">C# Development</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/24/Java-Development">Java Development</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/34/JavaScript-Development">JavaScript Development</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/195/Python-Development">Python Development</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/35/PHP-Development">PHP Development</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/75/Front-End-Development">Front-End Development</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/164/Mini-Courses">Mini Courses</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/36/Open-Courses">Open Courses</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/233/Free-Courses">Free Courses</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/95/PB-Books">PB - Books</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/142/SoftUni-Svetlina">SoftUni Svetlina</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/14/Softuniada">Softuniada</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/322/SoftUni-Bootcamp">SoftUni Bootcamp</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/55/Others">Others</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/292/School">School</a></li>
+                                <li><a href="https://judge.softuni.org/Contests/#!/List/ByCategory/334/SoftUni-Kids">SoftUni Kids</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://judge.softuni.org/Contests">All</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://judge.softuni.org/Submissions">Submissions</a></li>
+                        <li><a href="https://judge.softuni.org/Feedback">Feedback</a></li>
+
+                </ul>
+                
+
+<form action="https://judge.softuni.org/Account/LogOff" class="navbar-right login-form" id="logoutForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="jS6Dsx5dwnaMGbh_g8MH8LtIf4WWO1wR1gUp7aOO_DPFf1rJpG_V8AZSP-bzyLYt3SMbaFbFOXQk4v4fv19E73bg3LriZJbplKm2SABJJBDegfi5pw4L05G8qilW442XsUh7dg2">        <ul class="nav navbar-nav navbar-right">
+            <li class="logged-user-wrap ">
+
+                <a class="text-primary" href="https://judge.softuni.org/Users/Profile" title="Settings">Hello, ISMETDAILOV!</a>
+            </li>
+            <li><a href="javascript:document.getElementById(&#39;logoutForm&#39;).submit()">Log out</a></li>
+        </ul>
+</form>
+
+                <div class="col-md-3 col-sm-6 navbar-left hidden-md search-form ">
+                    <form class="navbar-form" role="search" action="https://judge.softuni.org/Search/Results">
+                        <div class="input-group">
+                            <input type="text" class="form-control search-box" placeholder="Search" name="searchTerm" id="searchTerm">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default btn-search" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-1 hidden-lg hidden-sm hidden-xs btn navbar-left">
+                    <a href="https://judge.softuni.org/Search/" class="btn btn-default btn-search"><i class="glyphicon glyphicon-search"></i></a>
+                </div>
+                <div class="language-switch  logged" data-cookie="language">
+                    <a id="en" class="btn-link language-btn selected-language-btn" data-default="">EN</a>
+                    <a id="bg" class="btn-link language-btn">BG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="container main-container">
+
+        
+
+
+
+
+<ol class="breadcrumb">
+    <li><a href="https://judge.softuni.org/">Home</a></li>
+    <li><a href="https://judge.softuni.org/Contests">Contests</a></li>
+    <li><a href="https://judge.softuni.org/Contests#!/List/ByCategory/307/JS-Advanced-Exams">JS-Advanced-Exams</a></li>
+    <li class="active">JS Advanced Exam - 20 February 2021</li>
+</ol>
+
+<h1>
+    <a href="https://judge.softuni.org/Contests/2862/JS-Advanced-Exam-20-February-2021">JS Advanced Exam - 20 February 2021</a>
+</h1>
+
+
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Submit a solution</h2>
+    </div>
+    <div class="col-md-4 text-right" id="countdown-timer-container">
+        <div class="clearfix"></div>
+        <div class="pull-right"><a href="https://judge.softuni.org/Contests/Practice/Results/Simple/2862">Results</a></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="k-tabstrip-wrapper" style=""><div class="k-widget k-tabstrip k-header" id="SubmissionsTabStrip" data-role="tabstrip" tabindex="0" role="tablist" aria-activedescendant="SubmissionsTabStrip_ts_active"><ul class="k-reset k-tabstrip-items"><li class="k-item k-state-default k-first" role="tab" aria-controls="SubmissionsTabStrip-1" style=""><span class="k-loading k-progress k-complete" style=""></span><a class="k-link">01. SoftBlog</a></li><li class="k-item k-state-default" role="tab" aria-controls="SubmissionsTabStrip-2" style=""><span class="k-loading k-progress k-complete" style=""></span><a class="k-link">02. Story</a></li><li class="k-item k-state-default k-last k-tab-on-top k-state-active" role="tab" aria-controls="SubmissionsTabStrip-3" aria-selected="true" style=""><span class="k-loading k-progress k-complete" style=""></span><a class="k-link">03. Number Operations</a></li></ul><div class="k-content" id="SubmissionsTabStrip-1" role="tabpanel" aria-expanded="false" aria-hidden="true" style="height: auto; overflow: visible; opacity: 0; display: none;">
+
+
+
+<h2>
+    01. SoftBlog
+    <span class="excluded-from-homework-disclaimer-message"></span>
+</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="notify-container-18443">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="materials">
+                    <span class="glyphicon glyphicon-list-alt resource-glyph"></span>
+                <a href="https://judge.softuni.org/Contests/Practice/DownloadResource/14574" target="_blank" class="resource-link">Условие</a>
+                    <span class="glyphicon glyphicon-list-alt resource-glyph"></span>
+                <a href="https://judge.softuni.org/Contests/Practice/DownloadResource/12349" target="_blank" class="resource-link">Resources</a>
+
+        </div>
+        <div class="submision">
+<form action="https://judge.softuni.org/Contests/Practice/Submit/2862" data-ajax="true" data-ajax-begin="validateSubmit.content" data-ajax-failure="messageNotifier.notifyFailure" data-ajax-success="messageNotifier.notifySuccess" id="problem_18443" method="post" enctype="multipart/form-data" encoding="multipart/form-data"><input name="__RequestVerificationToken" type="hidden" value="PgzHgAUlPxdPFeKCuPHjoO87VdW2hMqonTpaXKAW_0ghc5E-eAtcU-rcIus4siwc5hCDPX4nacMLxkJJ3behbAs90U-nRO3uBCoB6DYb-v4-9V6g3yvXnsINFCzfaIRLNLtHSw2"><input data-val="true" data-val-number="The field ProblemId must be a number." data-val-required="The ProblemId field is required." id="ProblemId" name="ProblemId" type="hidden" value="18443">                <div id="submisionDataFields">
+                    <div id="SourceCodeInputFields_18443">
+                        <textarea class="code-for-problem" id="code-problem-18443" name="Content" style="display: none;"></textarea><div class="CodeMirror cm-s-the-matrix CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 27px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 23px; margin-bottom: -17px; border-right-width: 13px; min-height: 26px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 18px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -23px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 13px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 13px; width: 1px; border-bottom: 0px solid transparent; top: 26px;"></div><div class="CodeMirror-gutters" style="height: 39px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 21px;"></div></div></div></div>
+                    </div>
+                    <div id="FileUploadInputFields_18443" style="display: none;">
+                        <div class="k-widget k-upload k-header k-upload-sync k-upload-empty"><div class="k-button k-upload-button"><input id="file-problem-18443" name="File" type="file" data-role="upload" autocomplete="off"><span>Select files...</span></div></div><script>
+	jQuery(function(){jQuery("#file-problem-18443").kendoUpload({"multiple":false});});
+</script>
+                        <div id="FileUploadAllowedFileExtensions_18443"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="pull-left submit-container">
+                        <strong>Allowed working time:</strong> 5.000 sec.
+                        <br>
+                        <strong>Allowed memory:</strong> 128.00 MB
+                        <br>
+                            <strong>Size limit:</strong> 16.00 KB
+                            <br>
+
+                        <strong>Checker:</strong> Trim <span class="glyphicon glyphicon-question-sign" id="checkers-tooltip" data-role="tooltip"></span>
+                    </div>
+                    <div class="submit-container pull-right">
+                        <script>
+                            function onSubmissionTypeChange() {
+                                var index = this.selectedIndex;
+                                var dataItem = this.dataItem(index);
+                                var form = $("#problem_18443");
+                                var fileUpload = $("#FileUploadInputFields_18443");
+                                var codeArea = $("#SourceCodeInputFields_18443");
+
+                                function submitHandler() {
+                                    var size = parseFloat("16") * 1024;
+                                    var extensions = dataItem.AllowedFileExtensions.split(',');
+                                    return validateSubmit.binary(form.find('input[type=file][name=File]')[0], size, extensions);
+                                }
+
+                                var oldFormAction = form.attr("action");
+                                var newFormAction;
+                                if (dataItem.AllowBinaryFilesUpload) {
+                                    newFormAction = oldFormAction.replace("/Submit/", "/SubmitBinaryFile/");
+
+                                    if (oldFormAction !== newFormAction) {
+                                        tabStripManager.tabSelected();
+                                        var returnProblem = getSelectedIndexFromHashtag();
+                                        newFormAction += ("?returnProblem=" + returnProblem);
+                                    }
+
+                                    form.attr("action", newFormAction)
+                                        .attr("data-ajax", "false")
+                                        .unbind("submit")
+                                        .bind("submit", submitHandler);
+
+                                    fileUpload.show();
+                                    codeArea.hide();
+
+                                    $("#FileUploadAllowedFileExtensions_18443")
+                                        .html("<b>Allowed file extensions:</b> " + dataItem.AllowedFileExtensions);
+                                } else {
+                                    newFormAction = oldFormAction.replace("/SubmitBinaryFile/", "/Submit/");
+
+                                    if (oldFormAction !== newFormAction) {
+                                        newFormAction = newFormAction.substr(0, newFormAction.lastIndexOf("?"));
+                                    }
+
+                                    form.attr("action", newFormAction)
+                                        .attr("data-ajax", "true")
+                                        .unbind("submit");
+
+                                    fileUpload.hide();
+                                    codeArea.show();
+                                }
+                            }
+                        </script>
+                        <span class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="dropdown_18443_listbox" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="dropdown_18443_option_selected" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">JavaScript code (DOM unit tests)</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input id="dropdown_18443" name="SubmissionTypeId" type="text" data-role="dropdownlist" style="display: none;"></span><script>
+	jQuery(function(){jQuery("#dropdown_18443").kendoDropDownList({"change":onSubmissionTypeChange,"dataBound":onSubmissionTypeChange,"open":Ojs.KendoControls.DropDownList.alignDropDownToInput,"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/GetAllowedSubmissionTypes/18443"}},"schema":{"errors":"Errors"}},"dataTextField":"Text","dataValueField":"Value"});});
+</script>
+                        <input type="submit" value="Submit" class="k-button submision-submit-button">
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+</form>        </div>
+    </div>
+
+
+
+        <div class="col-lg-4 problem-result-container visible-lg">
+            <div class="k-widget k-grid problem_submit_grid" id="ContestResults_18443" data-role="grid"><div class="k-toolbar k-grid-toolbar k-grid-top">Problem results</div><table class="table table-striped table-bordered" role="grid"><colgroup><col style="width:100px"><col style="width:80px"></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row"><th class="k-header" data-field="ParticipantName" data-title="Participant" scope="col" data-index="0"><span class="k-link">Participant</span></th><th class="k-header" data-field="Result" data-title="Result" scope="col" data-index="1"><span class="k-link">Result</span></th></tr></thead><tbody role="rowgroup"><tr><td><a href="https://judge.softuni.org/Users/MadeInSmolyan" target="_blank">MadeInSmolyan</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/shampion" target="_blank">shampion</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/Silvana803" target="_blank">Silvana803</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/AnzhelaNurieva" target="_blank">AnzhelaNurieva</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/nikolay.krystev" target="_blank">nikolay.krystev</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/c0olldude" target="_blank">c0olldude</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/SimeonShopov" target="_blank">SimeonShopov</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/NikolayS2" target="_blank">NikolayS2</a></td><td>100 / 100</td></tr></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the first page" tabindex="-1"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the previous page" tabindex="-1"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset"><li><span class="k-state-selected">1</span></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="2">2</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="3">3</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="4">4</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="5" title="More pages">...</a></li></ul><a class="k-link k-pager-nav" data-page="2" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the next page" tabindex="-1"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-pager-last" data-page="65" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the last page" tabindex="-1"><span class="k-icon k-i-seek-e">seek-e</span></a><a class="k-pager-refresh k-link" href="https://judge.softuni.org/Contests/Practice/Results/ByProblem/18443?_=1635066341255" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a></div></div><script>
+	jQuery(function(){jQuery("#ContestResults_18443").kendoGrid({"columns":[{"title":"Participant","width":"100px","field":"ParticipantName","filterable":{},"encoded":true},{"title":"Result","width":"80px","field":"Result","filterable":{},"encoded":true}],"pageable":{"info":false,"refresh":true,"buttonCount":4},"scrollable":false,"toolbar":{},"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/Results/ByProblem/18443"}},"pageSize":8,"page":1,"total":0,"serverPaging":true,"serverSorting":true,"serverFiltering":true,"serverGrouping":true,"serverAggregates":true,"type":"aspnetmvc-ajax","sort":[{"field":"Result","dir":"desc"}],"filter":[],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"SubmissionId":{"type":"number","defaultValue":null},"ParticipantName":{"type":"string"},"Result":{"type":"number"},"MaximumPoints":{"type":"number"},"ProblemId":{"type":"number"}}}}},"rowTemplate":"#= ParticipantName === \u0027ISMETDAILOV\u0027 ? \"\u003ctr class=\u0027success\u0027\u003e\" : \"\u003ctr\u003e\"#\u003ctd\u003e\u003ca href=\u0027/Users/#:ParticipantName#\u0027 target=\u0027_blank\u0027\u003e#:ParticipantName#\u003c/a\u003e\u003c/td\u003e\u003ctd\u003e#:Result# / #:MaximumPoints#\u003c/td\u003e\u003c/tr\u003e"});});
+</script>
+        </div>
+</div>
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="k-widget k-grid problem_submit_grid" id="Submissions_18443" data-role="grid"><div class="k-toolbar k-grid-toolbar k-grid-top">Submissions</div><table role="grid"><colgroup><col><col><col style="width:300px"></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row"><th class="k-header" data-field="SubmissionPoints" data-title="Points" scope="col" data-index="0"><span class="k-link">Points</span></th><th class="k-header" scope="col" data-index="1"><span class="k-link">Time and memory used</span></th><th class="k-header" data-field="SubmissionDate" data-title="Submission date" scope="col" data-index="2"><span class="k-link">Submission date</span></th></tr></thead><tbody role="rowgroup"></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the first page" tabindex="-1"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the previous page" tabindex="-1"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset"><li><span class="k-state-selected">0</span></li></ul><a class="k-link k-pager-nav k-state-disabled" data-page="0" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the next page" tabindex="-1"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-state-disabled k-pager-last" data-page="0" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the last page" tabindex="-1"><span class="k-icon k-i-seek-e">seek-e</span></a><a class="k-pager-refresh k-link" href="https://judge.softuni.org/Contests/Practice/ReadSubmissionResults/18443?official=False&amp;_=1635066341255" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a></div></div><script>
+	jQuery(function(){jQuery("#Submissions_18443").kendoGrid({"dataBound":cloneSubmissionsGridPager,"columns":[{"title":"Points","template":"#= IsCalculated ? IsCompiledSuccessfully ? displayTestRuns(TestRuns).concat( SubmissionPoints.toString().concat(\u0027 / \u0027).concat(MaximumPoints)) : \u0027Compile time error\u0027:\u0027Not processed yet\u0027#","field":"SubmissionPoints","filterable":{},"encoded":true},{"title":"Time and memory used","template":"#= IsCalculated \u0026\u0026 IsCompiledSuccessfully ? displayMaximumValues(MaximumMemoryUsed, MaximumTimeUsed, \u0027Memory\u0027,\u0027Time\u0027) : \u0027---\u0027 #"},{"title":"Submission date","width":"300px","template":"#= kendo.format(\u0027{0:HH:mm:ss dd.MM.yyyy}\u0027, SubmissionDate) # \u003ca href=\u0027/Contests/Submissions/View/#=SubmissionId#\u0027 target=\u0027_blank\u0027 class=\u0027view-submission-button btn btn-default pull-right\u0027\u003eDetails\u003c/div\u003e","field":"SubmissionDate","filterable":{},"encoded":true}],"pageable":{"info":false,"refresh":true,"buttonCount":10},"scrollable":false,"toolbar":{},"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/ReadSubmissionResults/18443"}},"pageSize":10,"page":1,"total":0,"serverPaging":true,"serverSorting":true,"serverFiltering":true,"serverGrouping":true,"serverAggregates":true,"type":"aspnetmvc-ajax","sort":[{"field":"SubmissionDate","dir":"desc"}],"filter":[],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"SubmissionId":{"type":"number"},"ProblemId":{"type":"number","defaultValue":null},"IsOfficial":{"type":"boolean"},"MaximumPoints":{"type":"number"},"TestRuns":{"type":"object"},"SubmissionDate":{"type":"date"},"IsCalculated":{"type":"boolean"},"MaximumMemoryUsed":{"editable":false,"type":"number","defaultValue":null},"MaximumTimeUsed":{"editable":false,"type":"number","defaultValue":null},"SubmissionPoints":{"type":"number","defaultValue":null},"IsCompiledSuccessfully":{"type":"boolean"}}}}}});});
+</script>
+        </div>
+    </div>
+
+<script>
+	jQuery(function(){jQuery("#checkers-tooltip").kendoTooltip({"position":"top","width":500,"content":"Trims the user output and compares it with the expected output."});});
+</script>
+<script type="text/x-kendo-template" id="checkers-template">
+    <ul style="list-style-type: none">
+        <li>
+            <strong>Checker types:</strong>
+        </li>
+        <li>
+            <strong>Exact</strong>  - the system compares the sent code result with the expected output symbol by symbol
+        </li>
+        <li>
+            <strong>Trim</strong> - the system trims the whitespace before and after the sent code result and then compares symbol by symbol with the expected output
+        </li>
+        <li>
+            <strong>Sort</strong> - the system sorts all lines in the sent code result and then compares symbol by symbol with the expected output
+        </li>
+        <li>
+            <strong>Case-insensitive</strong> - the system does not make difference between small and capital letters when comparing the sent code result with the expected output symbol by symbol
+        </li>
+        <li>
+            <strong>Precision N</strong> - only for tasks with end result decimal number - the system compares only the first N digits after the decimal point
+        </li>
+    </ul>
+</script>
+</div><div class="k-content" id="SubmissionsTabStrip-2" role="tabpanel" aria-expanded="false" aria-hidden="true" style="height: auto; overflow: visible; opacity: 0; display: none;">
+
+
+
+<h2>
+    02. Story
+    <span class="excluded-from-homework-disclaimer-message"></span>
+</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="notify-container-18444">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="materials">
+                    <span class="glyphicon glyphicon-list-alt resource-glyph"></span>
+                <a href="https://judge.softuni.org/Contests/Practice/DownloadResource/14581" target="_blank" class="resource-link">Условие</a>
+
+        </div>
+        <div class="submision">
+<form action="https://judge.softuni.org/Contests/Practice/Submit/2862" data-ajax="true" data-ajax-begin="validateSubmit.content" data-ajax-failure="messageNotifier.notifyFailure" data-ajax-success="messageNotifier.notifySuccess" id="problem_18444" method="post" enctype="multipart/form-data" encoding="multipart/form-data"><input name="__RequestVerificationToken" type="hidden" value="szczZDumTH0AcLCSMzaKR74GgYCDXxbGzMG63f-PoC9pErM5rbT-YmYKe8eLP-oBDMaAv87JpkConOmVorJ6xojpdnIWcPWeqryFwGDp1Mnfv2V_VmrztzncmABGQUG4RB-DmQ2"><input data-val="true" data-val-number="The field ProblemId must be a number." data-val-required="The ProblemId field is required." id="ProblemId" name="ProblemId" type="hidden" value="18444">                <div id="submisionDataFields">
+                    <div id="SourceCodeInputFields_18444">
+                        <textarea class="code-for-problem" id="code-problem-18444" name="Content" style="display: none;"></textarea><div class="CodeMirror cm-s-the-matrix CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 27px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 23px; margin-bottom: -17px; border-right-width: 13px; min-height: 26px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 18px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -23px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 13px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 13px; width: 1px; border-bottom: 0px solid transparent; top: 26px;"></div><div class="CodeMirror-gutters" style="height: 39px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 21px;"></div></div></div></div>
+                    </div>
+                    <div id="FileUploadInputFields_18444" style="display: none;">
+                        <div class="k-widget k-upload k-header k-upload-sync k-upload-empty"><div class="k-button k-upload-button"><input id="file-problem-18444" name="File" type="file" data-role="upload" autocomplete="off"><span>Select files...</span></div></div><script>
+	jQuery(function(){jQuery("#file-problem-18444").kendoUpload({"multiple":false});});
+</script>
+                        <div id="FileUploadAllowedFileExtensions_18444"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="pull-left submit-container">
+                        <strong>Allowed working time:</strong> 0.500 sec.
+                        <br>
+                        <strong>Allowed memory:</strong> 32.00 MB
+                        <br>
+                            <strong>Size limit:</strong> 16.00 KB
+                            <br>
+
+                        <strong>Checker:</strong> Trim <span class="glyphicon glyphicon-question-sign" id="checkers-tooltip"></span>
+                    </div>
+                    <div class="submit-container pull-right">
+                        <script>
+                            function onSubmissionTypeChange() {
+                                var index = this.selectedIndex;
+                                var dataItem = this.dataItem(index);
+                                var form = $("#problem_18444");
+                                var fileUpload = $("#FileUploadInputFields_18444");
+                                var codeArea = $("#SourceCodeInputFields_18444");
+
+                                function submitHandler() {
+                                    var size = parseFloat("16") * 1024;
+                                    var extensions = dataItem.AllowedFileExtensions.split(',');
+                                    return validateSubmit.binary(form.find('input[type=file][name=File]')[0], size, extensions);
+                                }
+
+                                var oldFormAction = form.attr("action");
+                                var newFormAction;
+                                if (dataItem.AllowBinaryFilesUpload) {
+                                    newFormAction = oldFormAction.replace("/Submit/", "/SubmitBinaryFile/");
+
+                                    if (oldFormAction !== newFormAction) {
+                                        tabStripManager.tabSelected();
+                                        var returnProblem = getSelectedIndexFromHashtag();
+                                        newFormAction += ("?returnProblem=" + returnProblem);
+                                    }
+
+                                    form.attr("action", newFormAction)
+                                        .attr("data-ajax", "false")
+                                        .unbind("submit")
+                                        .bind("submit", submitHandler);
+
+                                    fileUpload.show();
+                                    codeArea.hide();
+
+                                    $("#FileUploadAllowedFileExtensions_18444")
+                                        .html("<b>Allowed file extensions:</b> " + dataItem.AllowedFileExtensions);
+                                } else {
+                                    newFormAction = oldFormAction.replace("/SubmitBinaryFile/", "/Submit/");
+
+                                    if (oldFormAction !== newFormAction) {
+                                        newFormAction = newFormAction.substr(0, newFormAction.lastIndexOf("?"));
+                                    }
+
+                                    form.attr("action", newFormAction)
+                                        .attr("data-ajax", "true")
+                                        .unbind("submit");
+
+                                    fileUpload.hide();
+                                    codeArea.show();
+                                }
+                            }
+                        </script>
+                        <span class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="dropdown_18444_listbox" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="dropdown_18444_option_selected" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">JavaScript code (Mocha unit tests)</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input id="dropdown_18444" name="SubmissionTypeId" type="text" data-role="dropdownlist" style="display: none;"></span><script>
+	jQuery(function(){jQuery("#dropdown_18444").kendoDropDownList({"change":onSubmissionTypeChange,"dataBound":onSubmissionTypeChange,"open":Ojs.KendoControls.DropDownList.alignDropDownToInput,"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/GetAllowedSubmissionTypes/18444"}},"schema":{"errors":"Errors"}},"dataTextField":"Text","dataValueField":"Value"});});
+</script>
+                        <input type="submit" value="Submit" class="k-button submision-submit-button">
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+</form>        </div>
+    </div>
+
+
+
+        <div class="col-lg-4 problem-result-container visible-lg">
+            <div class="k-widget k-grid problem_submit_grid" id="ContestResults_18444" data-role="grid"><div class="k-toolbar k-grid-toolbar k-grid-top">Problem results</div><table class="table table-striped table-bordered" role="grid"><colgroup><col style="width:100px"><col style="width:80px"></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row"><th class="k-header" data-field="ParticipantName" data-title="Participant" scope="col" data-index="0"><span class="k-link">Participant</span></th><th class="k-header" data-field="Result" data-title="Result" scope="col" data-index="1"><span class="k-link">Result</span></th></tr></thead><tbody role="rowgroup"><tr><td><a href="https://judge.softuni.org/Users/MadeInSmolyan" target="_blank">MadeInSmolyan</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/shampion" target="_blank">shampion</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/Silvana803" target="_blank">Silvana803</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/AnzhelaNurieva" target="_blank">AnzhelaNurieva</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/nikolay.krystev" target="_blank">nikolay.krystev</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/SimeonShopov" target="_blank">SimeonShopov</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/Danielatodorova2106" target="_blank">Danielatodorova2106</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/mitachetoaz" target="_blank">mitachetoaz</a></td><td>100 / 100</td></tr></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the first page" tabindex="-1"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the previous page" tabindex="-1"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset"><li><span class="k-state-selected">1</span></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="2">2</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="3">3</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="4">4</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="5" title="More pages">...</a></li></ul><a class="k-link k-pager-nav" data-page="2" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the next page" tabindex="-1"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-pager-last" data-page="59" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the last page" tabindex="-1"><span class="k-icon k-i-seek-e">seek-e</span></a><a class="k-pager-refresh k-link" href="https://judge.softuni.org/Contests/Practice/Results/ByProblem/18444?_=1635066341256" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a></div></div><script>
+	jQuery(function(){jQuery("#ContestResults_18444").kendoGrid({"columns":[{"title":"Participant","width":"100px","field":"ParticipantName","filterable":{},"encoded":true},{"title":"Result","width":"80px","field":"Result","filterable":{},"encoded":true}],"pageable":{"info":false,"refresh":true,"buttonCount":4},"scrollable":false,"toolbar":{},"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/Results/ByProblem/18444"}},"pageSize":8,"page":1,"total":0,"serverPaging":true,"serverSorting":true,"serverFiltering":true,"serverGrouping":true,"serverAggregates":true,"type":"aspnetmvc-ajax","sort":[{"field":"Result","dir":"desc"}],"filter":[],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"SubmissionId":{"type":"number","defaultValue":null},"ParticipantName":{"type":"string"},"Result":{"type":"number"},"MaximumPoints":{"type":"number"},"ProblemId":{"type":"number"}}}}},"rowTemplate":"#= ParticipantName === \u0027ISMETDAILOV\u0027 ? \"\u003ctr class=\u0027success\u0027\u003e\" : \"\u003ctr\u003e\"#\u003ctd\u003e\u003ca href=\u0027/Users/#:ParticipantName#\u0027 target=\u0027_blank\u0027\u003e#:ParticipantName#\u003c/a\u003e\u003c/td\u003e\u003ctd\u003e#:Result# / #:MaximumPoints#\u003c/td\u003e\u003c/tr\u003e"});});
+</script>
+        </div>
+</div>
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="k-widget k-grid problem_submit_grid" id="Submissions_18444" data-role="grid"><div class="k-toolbar k-grid-toolbar k-grid-top">Submissions</div><table role="grid"><colgroup><col><col><col style="width:300px"></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row"><th class="k-header" data-field="SubmissionPoints" data-title="Points" scope="col" data-index="0"><span class="k-link">Points</span></th><th class="k-header" scope="col" data-index="1"><span class="k-link">Time and memory used</span></th><th class="k-header" data-field="SubmissionDate" data-title="Submission date" scope="col" data-index="2"><span class="k-link">Submission date</span></th></tr></thead><tbody role="rowgroup"></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the first page" tabindex="-1"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the previous page" tabindex="-1"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset"><li><span class="k-state-selected">0</span></li></ul><a class="k-link k-pager-nav k-state-disabled" data-page="0" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the next page" tabindex="-1"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-state-disabled k-pager-last" data-page="0" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the last page" tabindex="-1"><span class="k-icon k-i-seek-e">seek-e</span></a><a class="k-pager-refresh k-link" href="https://judge.softuni.org/Contests/Practice/ReadSubmissionResults/18444?official=False&amp;_=1635066341256" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a></div></div><script>
+	jQuery(function(){jQuery("#Submissions_18444").kendoGrid({"dataBound":cloneSubmissionsGridPager,"columns":[{"title":"Points","template":"#= IsCalculated ? IsCompiledSuccessfully ? displayTestRuns(TestRuns).concat( SubmissionPoints.toString().concat(\u0027 / \u0027).concat(MaximumPoints)) : \u0027Compile time error\u0027:\u0027Not processed yet\u0027#","field":"SubmissionPoints","filterable":{},"encoded":true},{"title":"Time and memory used","template":"#= IsCalculated \u0026\u0026 IsCompiledSuccessfully ? displayMaximumValues(MaximumMemoryUsed, MaximumTimeUsed, \u0027Memory\u0027,\u0027Time\u0027) : \u0027---\u0027 #"},{"title":"Submission date","width":"300px","template":"#= kendo.format(\u0027{0:HH:mm:ss dd.MM.yyyy}\u0027, SubmissionDate) # \u003ca href=\u0027/Contests/Submissions/View/#=SubmissionId#\u0027 target=\u0027_blank\u0027 class=\u0027view-submission-button btn btn-default pull-right\u0027\u003eDetails\u003c/div\u003e","field":"SubmissionDate","filterable":{},"encoded":true}],"pageable":{"info":false,"refresh":true,"buttonCount":10},"scrollable":false,"toolbar":{},"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/ReadSubmissionResults/18444"}},"pageSize":10,"page":1,"total":0,"serverPaging":true,"serverSorting":true,"serverFiltering":true,"serverGrouping":true,"serverAggregates":true,"type":"aspnetmvc-ajax","sort":[{"field":"SubmissionDate","dir":"desc"}],"filter":[],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"SubmissionId":{"type":"number"},"ProblemId":{"type":"number","defaultValue":null},"IsOfficial":{"type":"boolean"},"MaximumPoints":{"type":"number"},"TestRuns":{"type":"object"},"SubmissionDate":{"type":"date"},"IsCalculated":{"type":"boolean"},"MaximumMemoryUsed":{"editable":false,"type":"number","defaultValue":null},"MaximumTimeUsed":{"editable":false,"type":"number","defaultValue":null},"SubmissionPoints":{"type":"number","defaultValue":null},"IsCompiledSuccessfully":{"type":"boolean"}}}}}});});
+</script>
+        </div>
+    </div>
+
+<script>
+	jQuery(function(){jQuery("#checkers-tooltip").kendoTooltip({"position":"top","width":500,"content":"Trims the user output and compares it with the expected output."});});
+</script>
+<script type="text/x-kendo-template" id="checkers-template">
+    <ul style="list-style-type: none">
+        <li>
+            <strong>Checker types:</strong>
+        </li>
+        <li>
+            <strong>Exact</strong>  - the system compares the sent code result with the expected output symbol by symbol
+        </li>
+        <li>
+            <strong>Trim</strong> - the system trims the whitespace before and after the sent code result and then compares symbol by symbol with the expected output
+        </li>
+        <li>
+            <strong>Sort</strong> - the system sorts all lines in the sent code result and then compares symbol by symbol with the expected output
+        </li>
+        <li>
+            <strong>Case-insensitive</strong> - the system does not make difference between small and capital letters when comparing the sent code result with the expected output symbol by symbol
+        </li>
+        <li>
+            <strong>Precision N</strong> - only for tasks with end result decimal number - the system compares only the first N digits after the decimal point
+        </li>
+    </ul>
+</script>
+</div><div class="k-content k-state-active" id="SubmissionsTabStrip-3" role="tabpanel" aria-expanded="true" style="height: auto; overflow: visible; opacity: 1; display: block;">
+
+
+
+<h2>
+    03. Number Operations
+    <span class="excluded-from-homework-disclaimer-message"></span>
+</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="notify-container-18445">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="materials">
+                    <span class="glyphicon glyphicon-list-alt resource-glyph"></span>
+                <a href="https://judge.softuni.org/Contests/Practice/DownloadResource/14569" target="_blank" class="resource-link">Условие</a>
+                    <span class="glyphicon glyphicon-list-alt resource-glyph"></span>
+                <a href="https://judge.softuni.org/Contests/Practice/DownloadResource/12352" target="_blank" class="resource-link">Resources</a>
+
+        </div>
+        <div class="submision">
+<form action="https://judge.softuni.org/Contests/Practice/Submit/2862" data-ajax="true" data-ajax-begin="validateSubmit.content" data-ajax-failure="messageNotifier.notifyFailure" data-ajax-success="messageNotifier.notifySuccess" id="problem_18445" method="post" enctype="multipart/form-data" encoding="multipart/form-data"><input name="__RequestVerificationToken" type="hidden" value="tB74kWyeLiAzFMPkCQx1IwU1sfs7fvRdn_6cFZKcuG36jhiE4lxTn2mHCvZHUhIK0YoVG-OISXLvrE6NOdIUexSuFcaxxnZltL5Un6WephalWU4R65Px5EsTzWJNYZiyBBWzVg2"><input data-val="true" data-val-number="The field ProblemId must be a number." data-val-required="The ProblemId field is required." id="ProblemId" name="ProblemId" type="hidden" value="18445">                <div id="submisionDataFields">
+                    <div id="SourceCodeInputFields_18445">
+                        <textarea class="code-for-problem" id="code-problem-18445" name="Content" style="display: none;"></textarea><div class="CodeMirror cm-s-the-matrix CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 27px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 23px; margin-bottom: -17px; border-right-width: 13px; min-height: 26px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 18px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -23px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 13px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 13px; width: 1px; border-bottom: 0px solid transparent; top: 26px;"></div><div class="CodeMirror-gutters" style="height: 39px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 21px;"></div></div></div></div>
+                    </div>
+                    <div id="FileUploadInputFields_18445" style="display: none;">
+                        <div class="k-widget k-upload k-header k-upload-sync k-upload-empty"><div class="k-button k-upload-button"><input id="file-problem-18445" name="File" type="file" data-role="upload" autocomplete="off"><span>Select files...</span></div></div><script>
+	jQuery(function(){jQuery("#file-problem-18445").kendoUpload({"multiple":false});});
+</script>
+                        <div id="FileUploadAllowedFileExtensions_18445"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="pull-left submit-container">
+                        <strong>Allowed working time:</strong> 2.500 sec.
+                        <br>
+                        <strong>Allowed memory:</strong> 128.00 MB
+                        <br>
+                            <strong>Size limit:</strong> 16.00 KB
+                            <br>
+
+                        <strong>Checker:</strong> Trim <span class="glyphicon glyphicon-question-sign" id="checkers-tooltip"></span>
+                    </div>
+                    <div class="submit-container pull-right">
+                        <script>
+                            function onSubmissionTypeChange() {
+                                var index = this.selectedIndex;
+                                var dataItem = this.dataItem(index);
+                                var form = $("#problem_18445");
+                                var fileUpload = $("#FileUploadInputFields_18445");
+                                var codeArea = $("#SourceCodeInputFields_18445");
+
+                                function submitHandler() {
+                                    var size = parseFloat("16") * 1024;
+                                    var extensions = dataItem.AllowedFileExtensions.split(',');
+                                    return validateSubmit.binary(form.find('input[type=file][name=File]')[0], size, extensions);
+                                }
+
+                                var oldFormAction = form.attr("action");
+                                var newFormAction;
+                                if (dataItem.AllowBinaryFilesUpload) {
+                                    newFormAction = oldFormAction.replace("/Submit/", "/SubmitBinaryFile/");
+
+                                    if (oldFormAction !== newFormAction) {
+                                        tabStripManager.tabSelected();
+                                        var returnProblem = getSelectedIndexFromHashtag();
+                                        newFormAction += ("?returnProblem=" + returnProblem);
+                                    }
+
+                                    form.attr("action", newFormAction)
+                                        .attr("data-ajax", "false")
+                                        .unbind("submit")
+                                        .bind("submit", submitHandler);
+
+                                    fileUpload.show();
+                                    codeArea.hide();
+
+                                    $("#FileUploadAllowedFileExtensions_18445")
+                                        .html("<b>Allowed file extensions:</b> " + dataItem.AllowedFileExtensions);
+                                } else {
+                                    newFormAction = oldFormAction.replace("/SubmitBinaryFile/", "/Submit/");
+
+                                    if (oldFormAction !== newFormAction) {
+                                        newFormAction = newFormAction.substr(0, newFormAction.lastIndexOf("?"));
+                                    }
+
+                                    form.attr("action", newFormAction)
+                                        .attr("data-ajax", "true")
+                                        .unbind("submit");
+
+                                    fileUpload.hide();
+                                    codeArea.show();
+                                }
+                            }
+                        </script>
+                        <span class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="dropdown_18445_listbox" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="dropdown_18445_option_selected" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">JavaScript code (Unit Tests with Sinon and Mocha)</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input id="dropdown_18445" name="SubmissionTypeId" type="text" data-role="dropdownlist" style="display: none;"></span><script>
+	jQuery(function(){jQuery("#dropdown_18445").kendoDropDownList({"change":onSubmissionTypeChange,"dataBound":onSubmissionTypeChange,"open":Ojs.KendoControls.DropDownList.alignDropDownToInput,"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/GetAllowedSubmissionTypes/18445"}},"schema":{"errors":"Errors"}},"dataTextField":"Text","dataValueField":"Value"});});
+</script>
+                        <input type="submit" value="Submit" class="k-button submision-submit-button">
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+</form>        </div>
+    </div>
+
+
+
+        <div class="col-lg-4 problem-result-container visible-lg">
+            <div class="k-widget k-grid problem_submit_grid" id="ContestResults_18445" data-role="grid"><div class="k-toolbar k-grid-toolbar k-grid-top">Problem results</div><table class="table table-striped table-bordered" role="grid"><colgroup><col style="width:100px"><col style="width:80px"></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row"><th class="k-header" data-field="ParticipantName" data-title="Participant" scope="col" data-index="0"><span class="k-link">Participant</span></th><th class="k-header" data-field="Result" data-title="Result" scope="col" data-index="1"><span class="k-link">Result</span></th></tr></thead><tbody role="rowgroup"><tr><td><a href="https://judge.softuni.org/Users/shampion" target="_blank">shampion</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/MadeInSmolyan" target="_blank">MadeInSmolyan</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/Silvana803" target="_blank">Silvana803</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/dan.stoyanov" target="_blank">dan.stoyanov</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/nikolay.krystev" target="_blank">nikolay.krystev</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/AnzhelaNurieva" target="_blank">AnzhelaNurieva</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/SimeonShopov" target="_blank">SimeonShopov</a></td><td>100 / 100</td></tr><tr><td><a href="https://judge.softuni.org/Users/Wyasabi" target="_blank">Wyasabi</a></td><td>100 / 100</td></tr></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the first page" tabindex="-1"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the previous page" tabindex="-1"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset"><li><span class="k-state-selected">1</span></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="2">2</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="3">3</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="4">4</a></li><li><a tabindex="-1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" class="k-link" data-page="5" title="More pages">...</a></li></ul><a class="k-link k-pager-nav" data-page="2" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the next page" tabindex="-1"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-pager-last" data-page="57" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the last page" tabindex="-1"><span class="k-icon k-i-seek-e">seek-e</span></a><a class="k-pager-refresh k-link" href="https://judge.softuni.org/Contests/Practice/Results/ByProblem/18445?_=1635066341257" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a></div></div><script>
+	jQuery(function(){jQuery("#ContestResults_18445").kendoGrid({"columns":[{"title":"Participant","width":"100px","field":"ParticipantName","filterable":{},"encoded":true},{"title":"Result","width":"80px","field":"Result","filterable":{},"encoded":true}],"pageable":{"info":false,"refresh":true,"buttonCount":4},"scrollable":false,"toolbar":{},"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/Results/ByProblem/18445"}},"pageSize":8,"page":1,"total":0,"serverPaging":true,"serverSorting":true,"serverFiltering":true,"serverGrouping":true,"serverAggregates":true,"type":"aspnetmvc-ajax","sort":[{"field":"Result","dir":"desc"}],"filter":[],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"SubmissionId":{"type":"number","defaultValue":null},"ParticipantName":{"type":"string"},"Result":{"type":"number"},"MaximumPoints":{"type":"number"},"ProblemId":{"type":"number"}}}}},"rowTemplate":"#= ParticipantName === \u0027ISMETDAILOV\u0027 ? \"\u003ctr class=\u0027success\u0027\u003e\" : \"\u003ctr\u003e\"#\u003ctd\u003e\u003ca href=\u0027/Users/#:ParticipantName#\u0027 target=\u0027_blank\u0027\u003e#:ParticipantName#\u003c/a\u003e\u003c/td\u003e\u003ctd\u003e#:Result# / #:MaximumPoints#\u003c/td\u003e\u003c/tr\u003e"});});
+</script>
+        </div>
+</div>
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="k-widget k-grid problem_submit_grid" id="Submissions_18445" data-role="grid"><div class="k-toolbar k-grid-toolbar k-grid-top">Submissions</div><table role="grid"><colgroup><col><col><col style="width:300px"></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row"><th class="k-header" data-field="SubmissionPoints" data-title="Points" scope="col" data-index="0"><span class="k-link">Points</span></th><th class="k-header" scope="col" data-index="1"><span class="k-link">Time and memory used</span></th><th class="k-header" data-field="SubmissionDate" data-title="Submission date" scope="col" data-index="2"><span class="k-link">Submission date</span></th></tr></thead><tbody role="rowgroup"></tbody></table><div class="k-pager-wrap k-grid-pager k-widget" data-role="pager"><a class="k-link k-pager-nav k-state-disabled k-pager-first" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the first page" tabindex="-1"><span class="k-icon k-i-seek-w">seek-w</span></a><a class="k-link k-pager-nav k-state-disabled" data-page="1" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the previous page" tabindex="-1"><span class="k-icon k-i-arrow-w">arrow-w</span></a><ul class="k-pager-numbers k-reset"><li><span class="k-state-selected">0</span></li></ul><a class="k-link k-pager-nav k-state-disabled" data-page="0" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the next page" tabindex="-1"><span class="k-icon k-i-arrow-e">arrow-e</span></a><a class="k-link k-pager-nav k-state-disabled k-pager-last" data-page="0" href="https://judge.softuni.org/Contests/Practice/Index/2862#" title="Go to the last page" tabindex="-1"><span class="k-icon k-i-seek-e">seek-e</span></a><a class="k-pager-refresh k-link" href="https://judge.softuni.org/Contests/Practice/ReadSubmissionResults/18445?official=False&amp;_=1635066341257" title="Refresh"><span class="k-icon k-i-refresh">Refresh</span></a></div></div><script>
+	jQuery(function(){jQuery("#Submissions_18445").kendoGrid({"dataBound":cloneSubmissionsGridPager,"columns":[{"title":"Points","template":"#= IsCalculated ? IsCompiledSuccessfully ? displayTestRuns(TestRuns).concat( SubmissionPoints.toString().concat(\u0027 / \u0027).concat(MaximumPoints)) : \u0027Compile time error\u0027:\u0027Not processed yet\u0027#","field":"SubmissionPoints","filterable":{},"encoded":true},{"title":"Time and memory used","template":"#= IsCalculated \u0026\u0026 IsCompiledSuccessfully ? displayMaximumValues(MaximumMemoryUsed, MaximumTimeUsed, \u0027Memory\u0027,\u0027Time\u0027) : \u0027---\u0027 #"},{"title":"Submission date","width":"300px","template":"#= kendo.format(\u0027{0:HH:mm:ss dd.MM.yyyy}\u0027, SubmissionDate) # \u003ca href=\u0027/Contests/Submissions/View/#=SubmissionId#\u0027 target=\u0027_blank\u0027 class=\u0027view-submission-button btn btn-default pull-right\u0027\u003eDetails\u003c/div\u003e","field":"SubmissionDate","filterable":{},"encoded":true}],"pageable":{"info":false,"refresh":true,"buttonCount":10},"scrollable":false,"toolbar":{},"dataSource":{"transport":{"prefix":"","read":{"url":"/Contests/Practice/ReadSubmissionResults/18445"}},"pageSize":10,"page":1,"total":0,"serverPaging":true,"serverSorting":true,"serverFiltering":true,"serverGrouping":true,"serverAggregates":true,"type":"aspnetmvc-ajax","sort":[{"field":"SubmissionDate","dir":"desc"}],"filter":[],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"SubmissionId":{"type":"number"},"ProblemId":{"type":"number","defaultValue":null},"IsOfficial":{"type":"boolean"},"MaximumPoints":{"type":"number"},"TestRuns":{"type":"object"},"SubmissionDate":{"type":"date"},"IsCalculated":{"type":"boolean"},"MaximumMemoryUsed":{"editable":false,"type":"number","defaultValue":null},"MaximumTimeUsed":{"editable":false,"type":"number","defaultValue":null},"SubmissionPoints":{"type":"number","defaultValue":null},"IsCompiledSuccessfully":{"type":"boolean"}}}}}});});
+</script>
+        </div>
+    </div>
+
+<script>
+	jQuery(function(){jQuery("#checkers-tooltip").kendoTooltip({"position":"top","width":500,"content":"Trims the user output and compares it with the expected output."});});
+</script>
+<script type="text/x-kendo-template" id="checkers-template">
+    <ul style="list-style-type: none">
+        <li>
+            <strong>Checker types:</strong>
+        </li>
+        <li>
+            <strong>Exact</strong>  - the system compares the sent code result with the expected output symbol by symbol
+        </li>
+        <li>
+            <strong>Trim</strong> - the system trims the whitespace before and after the sent code result and then compares symbol by symbol with the expected output
+        </li>
+        <li>
+            <strong>Sort</strong> - the system sorts all lines in the sent code result and then compares symbol by symbol with the expected output
+        </li>
+        <li>
+            <strong>Case-insensitive</strong> - the system does not make difference between small and capital letters when comparing the sent code result with the expected output symbol by symbol
+        </li>
+        <li>
+            <strong>Precision N</strong> - only for tasks with end result decimal number - the system compares only the first N digits after the decimal point
+        </li>
+    </ul>
+</script>
+</div></div></div><script>
+	jQuery(function(){jQuery("#SubmissionsTabStrip").kendoTabStrip({"contentLoad":tabStripManager.onContentLoad,"activate":tabStripManager.tabSelected,"contentUrls":["/Contests/Practice/Problem/18443","/Contests/Practice/Problem/18444","/Contests/Practice/Problem/18445"]});});
+</script>
+    </div>
+</div>
+
+
+        <hr>
+        <footer>
+            <p>© 2011-2021 - Open Judge System (OJS) 1.5.20150729.95737d0 - running on Windows. <a href="https://github.com/NikolayIT/OpenJudgeSystem" target="_blank">Open source project.</a></p>
+        </footer>
+    </div>
+
+    <!-- Cookie usage notification -->
+    <div id="cookies-notification">
+        <a href="http://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">Cookies</a> help us deliver our services. By using our services, you agree to our use of cookies.
+        <a id="cookies-notification-button" href="https://judge.softuni.org/Contests/Practice/Index/2862#">OK</a>
+    </div>
+
+    <!-- JavaScripts -->
+    <script src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/bootstrap(1)"></script>
+
+    
+    <script src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/codemirror(1)"></script>
+
+    <script src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/test-results.js.изтеглен файл"></script>
+    <script src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/countdown.js.изтеглен файл"></script>
+    <script src="./JS Advanced Exam - 20 February 2021 - SoftUni Judge_files/submission-page.js.изтеглен файл"></script>
+    <script type="text/javascript">
+        var timeValidator = new submissionTimeValidator(new Date(Date.parse("24 Oct 2021 12:05:41")));
+
+        var validateSubmit = (function () {
+            var submitTime;
+
+
+            var serverTime = new Date(Date.parse("24 Oct 2021 12:05:41"));
+
+            var limitBetweenSubmissions = parseInt(60);
+
+            function validateSubmit() {
+                var validationResult = validateSubmissionContent() && timeValidator.validate(submitTime, limitBetweenSubmissions, serverTime);
+                return validationResult;
+            }
+
+            function validateBinarySubmit(fileInput, size, extensions) {
+                var validationResult = validateBinaryFileExists(fileInput)
+                    && validateBinaryFileSize(fileInput, size)
+                    && validateBinaryFileAllowedExtensions(fileInput, extensions)
+                    && timeValidator.validate(submitTime, limitBetweenSubmissions, serverTime);
+                return validationResult;
+            }
+
+            return {
+                content: validateSubmit,
+                binary : validateBinarySubmit
+            };
+        })();
+
+    </script>
+
+
+
+<div class="k-list-container k-popup k-group k-reset" id="dropdown_18443-list" data-role="popup" style="position: absolute; height: auto; display: none;"><ul unselectable="on" class="k-list k-reset" tabindex="-1" role="listbox" aria-hidden="true" id="dropdown_18443_listbox" aria-live="off" style="overflow: auto; height: auto;"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused" id="dropdown_18443_option_selected" aria-selected="true">JavaScript code (DOM unit tests)</li></ul></div><div class="k-list-container k-popup k-group k-reset" id="dropdown_18444-list" data-role="popup" style="position: absolute; height: auto; display: none;"><ul unselectable="on" class="k-list k-reset" tabindex="-1" role="listbox" aria-hidden="true" id="dropdown_18444_listbox" aria-live="off" style="overflow: auto; height: auto;"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused" id="dropdown_18444_option_selected" aria-selected="true">JavaScript code (Mocha unit tests)</li></ul></div><div class="k-list-container k-popup k-group k-reset" id="dropdown_18445-list" data-role="popup" style="position: absolute; height: auto; display: none;"><ul unselectable="on" class="k-list k-reset" tabindex="-1" role="listbox" aria-hidden="true" id="dropdown_18445_listbox" aria-live="off" style="overflow: auto; height: auto;"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused" id="dropdown_18445_option_selected" aria-selected="true">JavaScript code (Unit Tests with Sinon and Mocha)</li></ul></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

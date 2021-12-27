@@ -1,0 +1,13 @@
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\bin\Debug\netcoreapp3.1\Parking.exe
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\bin\Debug\netcoreapp3.1\Parking.deps.json
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\bin\Debug\netcoreapp3.1\Parking.runtimeconfig.json
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\bin\Debug\netcoreapp3.1\Parking.runtimeconfig.dev.json
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\bin\Debug\netcoreapp3.1\Parking.dll
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\bin\Debug\netcoreapp3.1\Parking.pdb
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\obj\Debug\netcoreapp3.1\Parking.csproj.AssemblyReference.cache
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\obj\Debug\netcoreapp3.1\Parking.AssemblyInfoInputs.cache
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\obj\Debug\netcoreapp3.1\Parking.AssemblyInfo.cs
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\obj\Debug\netcoreapp3.1\Parking.csproj.CoreCompileInputs.cache
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\obj\Debug\netcoreapp3.1\Parking.dll
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\obj\Debug\netcoreapp3.1\Parking.pdb
+G:\C# ADVANCED\Exam\28 juni 2020\03. Parking_Skeleton\Parking\Parking\obj\Debug\netcoreapp3.1\Parking.genruntimeconfig.cache

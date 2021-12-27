@@ -1,0 +1,13 @@
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\bin\Debug\netcoreapp3.1\BakeryOpenning.exe
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\bin\Debug\netcoreapp3.1\BakeryOpenning.deps.json
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\bin\Debug\netcoreapp3.1\BakeryOpenning.runtimeconfig.json
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\bin\Debug\netcoreapp3.1\BakeryOpenning.runtimeconfig.dev.json
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\bin\Debug\netcoreapp3.1\BakeryOpenning.dll
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\bin\Debug\netcoreapp3.1\BakeryOpenning.pdb
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\obj\Debug\netcoreapp3.1\BakeryOpenning.csproj.AssemblyReference.cache
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\obj\Debug\netcoreapp3.1\BakeryOpenning.AssemblyInfoInputs.cache
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\obj\Debug\netcoreapp3.1\BakeryOpenning.AssemblyInfo.cs
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\obj\Debug\netcoreapp3.1\BakeryOpenning.csproj.CoreCompileInputs.cache
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\obj\Debug\netcoreapp3.1\BakeryOpenning.dll
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\obj\Debug\netcoreapp3.1\BakeryOpenning.pdb
+G:\C# ADVANCED\Exam\16 Dec exam\03. Openning_ Skeleton\obj\Debug\netcoreapp3.1\BakeryOpenning.genruntimeconfig.cache

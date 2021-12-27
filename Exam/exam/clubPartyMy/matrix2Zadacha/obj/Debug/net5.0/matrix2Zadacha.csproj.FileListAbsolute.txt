@@ -1,0 +1,16 @@
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\bin\Debug\net5.0\matrix2Zadacha.exe
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\bin\Debug\net5.0\matrix2Zadacha.deps.json
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\bin\Debug\net5.0\matrix2Zadacha.runtimeconfig.json
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\bin\Debug\net5.0\matrix2Zadacha.runtimeconfig.dev.json
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\bin\Debug\net5.0\matrix2Zadacha.dll
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\bin\Debug\net5.0\ref\matrix2Zadacha.dll
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\bin\Debug\net5.0\matrix2Zadacha.pdb
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\matrix2Zadacha.csprojAssemblyReference.cache
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\matrix2Zadacha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\matrix2Zadacha.AssemblyInfoInputs.cache
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\matrix2Zadacha.AssemblyInfo.cs
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\matrix2Zadacha.csproj.CoreCompileInputs.cache
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\matrix2Zadacha.dll
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\ref\matrix2Zadacha.dll
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\matrix2Zadacha.pdb
+C:\Users\dailo\source\repos\clubPartyMy\matrix2Zadacha\obj\Debug\net5.0\matrix2Zadacha.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\bin\Debug\net5.0\SUS.HTTP.deps.json
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\bin\Debug\net5.0\SUS.HTTP.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\bin\Debug\net5.0\ref\SUS.HTTP.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\bin\Debug\net5.0\SUS.HTTP.pdb
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\obj\Debug\net5.0\SUS.HTTP.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\obj\Debug\net5.0\SUS.HTTP.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\obj\Debug\net5.0\SUS.HTTP.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\obj\Debug\net5.0\SUS.HTTP.AssemblyInfo.cs
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\obj\Debug\net5.0\SUS.HTTP.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\obj\Debug\net5.0\SUS.HTTP.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\obj\Debug\net5.0\ref\SUS.HTTP.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.HTTP\obj\Debug\net5.0\SUS.HTTP.pdb

@@ -1,0 +1,4 @@
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.AssemblyInfo.cs
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.csproj.CoreCompileInputs.cache

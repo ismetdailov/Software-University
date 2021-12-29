@@ -1,0 +1,16 @@
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\MyFirstMvcApp.exe
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\MyFirstMvcApp.deps.json
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\MyFirstMvcApp.runtimeconfig.json
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\MyFirstMvcApp.runtimeconfig.dev.json
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\MyFirstMvcApp.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\ref\MyFirstMvcApp.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\MyFirstMvcApp.pdb
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.AssemblyInfo.cs
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\ref\MyFirstMvcApp.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.pdb
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.genruntimeconfig.cache

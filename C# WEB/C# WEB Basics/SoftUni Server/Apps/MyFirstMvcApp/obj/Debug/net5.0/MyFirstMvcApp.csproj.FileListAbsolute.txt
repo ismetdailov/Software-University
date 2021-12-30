@@ -14,3 +14,6 @@ G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\ob
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\ref\MyFirstMvcApp.dll
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.pdb
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.genruntimeconfig.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\SUS.HTTP.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\SUS.HTTP.pdb
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.csproj.CopyComplete

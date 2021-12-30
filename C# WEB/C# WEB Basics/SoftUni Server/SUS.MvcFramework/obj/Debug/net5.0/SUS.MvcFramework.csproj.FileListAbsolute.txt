@@ -2,3 +2,10 @@ G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.AssemblyInfoInputs.cache
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.AssemblyInfo.cs
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\bin\Debug\net5.0\SUS.MvcFramework.deps.json
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\bin\Debug\net5.0\SUS.MvcFramework.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\bin\Debug\net5.0\ref\SUS.MvcFramework.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\bin\Debug\net5.0\SUS.MvcFramework.pdb
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\ref\SUS.MvcFramework.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.pdb

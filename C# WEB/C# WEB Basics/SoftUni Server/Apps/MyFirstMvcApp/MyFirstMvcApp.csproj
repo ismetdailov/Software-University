@@ -9,4 +9,13 @@
     <ProjectReference Include="..\..\SUS.HTTP\SUS.HTTP.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="wwwroot\fav.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\favIcon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

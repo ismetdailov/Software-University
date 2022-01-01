@@ -12,19 +12,7 @@ namespace MyFirstMvcApp.Controllers
     {
         public HttpResponse Index(HttpRequest request)
         {
-            var responseHtml = "<h1>Welcome!</>" + HttpConstans.NewLine +
-                request.Headers.FirstOrDefault(x => x.Name == "User-Agent");
-            var resposneBodyBytes = Encoding.UTF8.GetBytes(responseHtml);
-            var response = new HttpResponse("text/html", resposneBodyBytes);
-
-            return response;
-        }
-        public HttpResponse About(HttpRequest request)
-        {
-            var responseHtml = "<h1>About.........!</>";
-            var resposneBodyBytes = Encoding.UTF8.GetBytes(responseHtml);
-            var response = new HttpResponse("text/html", resposneBodyBytes);
-            return response;
+            return this.View("Views/Home/Index.html");
         }
     }
 }

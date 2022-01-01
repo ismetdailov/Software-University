@@ -9,3 +9,7 @@ G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\bin\
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.dll
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\ref\SUS.MvcFramework.dll
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.pdb
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\bin\Debug\net5.0\SUS.HTTP.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\bin\Debug\net5.0\SUS.HTTP.pdb
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework\obj\Debug\net5.0\SUS.MvcFramework.csproj.CopyComplete

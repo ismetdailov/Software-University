@@ -18,4 +18,11 @@ G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bi
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\SUS.HTTP.pdb
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\obj\Debug\net5.0\MyFirstMvcApp.csproj.CopyComplete
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\wwwroot\fav.svg
-G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\wwwroot\favIcon.png
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\SUS.MvcFramework.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\SUS.MvcFramework.pdb
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\Views\Users\Register.html
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\Views\Cards\Add.html
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\Views\Cards\All.html
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\Views\Cards\Collection.html
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\Views\Home\Index.html
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\Views\Users\Login.html

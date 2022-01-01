@@ -1,5 +1,6 @@
 ﻿using SUS.HTTP;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace MyFirstMvcApp
             server.AddRoute("/favicon.ico", Favicon);
             server.AddRoute("/about", About);
             server.AddRoute("/users/login", Login);
+           var proces = Process.Start(@"C:\Program Files\Google\Chrome\Application\chrome.exe","http://localhost");
             await server.StartAsync(80);
         }
         static HttpResponse HomePage(HttpRequest request)

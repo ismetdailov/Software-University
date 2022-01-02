@@ -12,15 +12,15 @@ namespace MyFirstMvcApp.Controllers
     {
         public HttpResponse Add(HttpRequest request)
         {
-            return this.View("Views/Cards/Add.html");
+            return this.View();
         }
         public HttpResponse All(HttpRequest request)
         {
-            return this.View("Views/Cards/All.html");
+            return this.View();
         }
         public HttpResponse Collection(HttpRequest request)
         {
-            return this.View("Views/Cards/Collection.html");
+            return this.View();
         }
     }
 }

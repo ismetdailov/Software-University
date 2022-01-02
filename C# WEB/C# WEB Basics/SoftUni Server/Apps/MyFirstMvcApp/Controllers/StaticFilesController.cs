@@ -13,10 +13,27 @@ namespace MyFirstMvcApp.Controllers
     {
         public HttpResponse Favicon(HttpRequest request)
         {
-            var fileBytes = File.ReadAllBytes("wwwroot/fav.svg");
-            var response = new HttpResponse("image/svg+xml", fileBytes);
-            ///var response = new HttpResponse("image/vnd.microsoft.icon",fileBytes);
-            return response;
+            return this.File("wwwroot/fav.svg", "image/svg+xml");
         }
+
+        internal HttpResponse BootstrapCss(HttpRequest request)
+        {
+            return this.File("wwwroot/css/bootstrap.min.css", "text/css");
+        }
+
+        internal HttpResponse CustomCss(HttpRequest request)
+        {
+            return this.File("wwwroot/css/custom.css", "text/css");
+        }
+        internal HttpResponse CustomJs(HttpRequest request)
+        {
+            return this.File("wwwroot/js/custom.js", "text/javascript");
+        }
+        internal HttpResponse BootstrapJs(HttpRequest request)
+        {
+            return this.File("wwwroot/js/bootstrap.bundle.min", "text/javascript");
+        }
+
+      
     }
 }

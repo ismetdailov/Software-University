@@ -36,7 +36,7 @@
     <None Update="ViewTests\CleanHtml.Result.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="ViewTests\Foreach1.html">
+    <None Update="ViewTests\Foreach.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="ViewTests\ForeachResult.html">

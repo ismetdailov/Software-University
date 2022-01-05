@@ -59,3 +59,4 @@ G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bi
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\Apps\MyFirstMvcApp\bin\Debug\net5.0\Views\Home\About.cshtml

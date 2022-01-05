@@ -19,6 +19,7 @@ namespace MyFirstMvcApp.Controllers
             //var response = new HttpResponse("text/html", resposneBodyBytes);
             //return response;
         }
+            // [HttpPost]
         public HttpResponse Register(HttpRequest request)
         {
             return this.View();
@@ -29,6 +30,7 @@ namespace MyFirstMvcApp.Controllers
             //return response;
         }
 
+        [HttpPost]
         public HttpResponse DoLogin(HttpRequest request)
         {
             //Todo read data

@@ -124,9 +124,9 @@ namespace ViewNamespace
                 compileResult = compileResult
                     .AddReferences(MetadataReference.CreateFromFile(viewModel.GetType().Assembly.Location));
             }
-            //ToDo net5.0
-            var libraries = Assembly.Load(new AssemblyName("netstandart")).GetReferencedAssemblies();
-
+        /// to do
+           // var libraries = Assembly.Load(new AssemblyName("net5.0")).GetReferencedAssemblies();
+            var libraries = Assembly.Load(new AssemblyName("net5.0")).GetReferencedAssemblies();
             foreach (var library in libraries)
             {
                 compileResult = compileResult.AddReferences(MetadataReference.CreateFromFile(Assembly.Load(library).Location));

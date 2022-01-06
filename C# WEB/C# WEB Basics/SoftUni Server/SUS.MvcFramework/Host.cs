@@ -37,12 +37,13 @@ namespace SUS.MvcFramework
             foreach (var controllerType in controllerTypes)
             {
             var methods = controllerType.GetMethods()
-                    .Where(x=>x.IsStatic && !x.IsStatic && x.DeclaringType == controllerType
+                    .Where(x=>x.IsPublic && !x.IsStatic && x.DeclaringType == controllerType
                     & !x.IsAbstract && !x.IsConstructor && !x.IsSpecialName);
                 foreach (var method in methods)
                 {
-                    var url = "/" + controllerType.Name.Replace("controller", string.Empty)
+                    var url = "/" + controllerType.Name.Replace("Controller", string.Empty)
                         + "/" + method.Name;
+                    
                    var atribute = method.GetCustomAttributes(false)
                         .Where(x => x.GetType().IsSubclassOf(typeof(BaseHttpAttribute))).FirstOrDefault() as BaseHttpAttribute;
                     var httpMethod = HttpMethod.Get;
@@ -57,8 +58,9 @@ namespace SUS.MvcFramework
 
                     routeTable.Add(new Route(url, httpMethod, (request) =>
                     {
-                        var instance = Activator.CreateInstance(controllerType);
-                       var response= method.Invoke(instance,new[] { request }) as HttpResponse;
+                        var instance = Activator.CreateInstance(controllerType) as Controller;
+                       var response= method.Invoke(instance,new object [] { }) as HttpResponse;
+                        instance.Request = request;
                         return response;
                     }));
                     Console.WriteLine(url);
@@ -67,7 +69,7 @@ namespace SUS.MvcFramework
             }
         }
 
-        private static void AutoRegisterStaticFiles(List<Route> routeTable)
+        private static void AutoRegisterStaticFiles( List<Route> routeTable)
         {
             var staticFiles = Directory.GetFiles("wwwroot", "*", SearchOption.AllDirectories);
             foreach (var staticFile in staticFiles)
@@ -83,7 +85,7 @@ namespace SUS.MvcFramework
                         ".js" => "text/javascript",
                         ".css" => "text/css",
                         ".jpg" => "image/jpg",
-                        ".jpeg" => "image/jpeg",
+                        ".jpeg" => "image/jpg",
                         ".png" => "image/png",
                         ".gif" => "image/gif",
                         ".ico" => "image/vnd.microsoft.icon",
@@ -92,6 +94,11 @@ namespace SUS.MvcFramework
                     };
                     return new HttpResponse(contentType, fileContent, HttpStatusCode.Ok);
                 }));
+            }
+            Console.WriteLine("All Register routes");
+            foreach (var route in routeTable)
+            {
+                Console.WriteLine($"{route.Method} {route.Path}");
             }
         }
     }

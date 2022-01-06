@@ -11,27 +11,19 @@ namespace MyFirstMvcApp.Controllers
 {
     public class UsersController : Controller
     {
-        public HttpResponse Login(HttpRequest request)
+        public HttpResponse Login()
         {
             return this.View();
-            //var responseHtml = File.ReadAllText("Views/Users/Login.html");
-            //var resposneBodyBytes = Encoding.UTF8.GetBytes(responseHtml);
-            //var response = new HttpResponse("text/html", resposneBodyBytes);
-            //return response;
         }
             // [HttpPost]
-        public HttpResponse Register(HttpRequest request)
+        public HttpResponse Register()
         {
             return this.View();
 
-            //var responseHtml = File.ReadAllText("Views/Users/Register.html");
-            //var resposneBodyBytes = Encoding.UTF8.GetBytes(responseHtml);
-            //var response = new HttpResponse("text/html", resposneBodyBytes);
-            //return response;
         }
 
         [HttpPost]
-        public HttpResponse DoLogin(HttpRequest request)
+        public HttpResponse DoLogin()
         {
             //Todo read data
             //check user

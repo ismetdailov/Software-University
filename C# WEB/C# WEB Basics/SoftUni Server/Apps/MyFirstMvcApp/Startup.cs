@@ -1,4 +1,6 @@
-﻿using MyFirstMvcApp.Controllers;
+﻿using Microsoft.EntityFrameworkCore;
+using MyFirstMvcApp.Controllers;
+using MyFirstMvcApp.Data;
 using SUS.HTTP;
 using SUS.MvcFramework;
 using System;
@@ -18,6 +20,7 @@ namespace MyFirstMvcApp
         }
         public void Configure(List<Route> routeTable)
         {
+            new ApplicationDbContext().Database.Migrate();
             //routeTable.Add(new Route("/", HttpMethod.Get,new HomeController().Index));
             //routeTable.Add(new Route("/home/about", HttpMethod.Get,new HomeController().About));
             //routeTable.Add(new Route("/users/login", HttpMethod.Get, new UsersController().Login));

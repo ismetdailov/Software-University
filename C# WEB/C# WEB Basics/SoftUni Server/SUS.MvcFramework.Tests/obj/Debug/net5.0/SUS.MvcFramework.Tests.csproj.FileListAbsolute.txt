@@ -13,7 +13,6 @@ G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Test
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\SusViewEngineTests.cs
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\ViewTests\CleanHtml.html
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\ViewTests\CleanHtml.Result.html
-G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\ViewTests\ForeachResult.html
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\ViewTests\IfElseFor.html
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\ViewTests\IfElseFor.Result.html
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\ViewTests\ViewModel.html
@@ -140,3 +139,4 @@ G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Test
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\ViewTests\Foreach.html
+G:\Software-University\C# WEB\C# WEB Basics\SoftUni Server\SUS.MvcFramework.Tests\bin\Debug\net5.0\ViewTests\Foreach.Result.html

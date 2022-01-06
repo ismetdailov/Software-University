@@ -19,7 +19,7 @@ namespace SUS.MvcFramework.ViewEngine
             string csharpCode = GenerateCSharpFromTemplate(templateCode,viewModel);
             IView executableObject = GenerateExecutableCode(csharpCode, viewModel);
             string html = executableObject.ExecuteTemplate(viewModel);
-            return html;
+            return html.TrimEnd();
         }
 
 
@@ -32,7 +32,7 @@ namespace SUS.MvcFramework.ViewEngine
                 {
                     var modelName= viewModel.GetType().FullName;
                     var genericArguments = viewModel.GetType().GenericTypeArguments;
-                    typeOfModel = modelName.Substring(modelName.IndexOf('`')) + "<"+ string.Join(",",genericArguments
+                    typeOfModel = modelName.Substring(0,modelName.IndexOf('`')) + "<"+ string.Join(",",genericArguments
                         .Select(x=>x.FullName)) + ">";
                 }
                 else
@@ -71,7 +71,7 @@ namespace ViewNamespace
 
         private string GetMethodBody(string templateCode)
         {
-            Regex csharpCodeRegex = new Regex(@"[^\""\s&\'\<]");
+            Regex csharpCodeRegex = new Regex(@"[^\""\s&\'\<]+");
             var supportedOperators = new List<string> { "for", "while", "if","else", "foreach" };
             StringBuilder csharpCode = new StringBuilder();
             StringReader sr = new StringReader(templateCode);
@@ -95,10 +95,10 @@ namespace ViewNamespace
                     {
                         var atSignLocation = line.IndexOf("@");
                         var htmlBeforeAtSign = line.Substring(0, atSignLocation);
-                        csharpCode.Append(htmlBeforeAtSign.Replace("\"", "\"\"") + "\"+");
+                        csharpCode.Append(htmlBeforeAtSign.Replace("\"", "\"\"") + "\" + ");
                         var lineAfterSign = line.Substring(atSignLocation + 1);
                       var code=  csharpCodeRegex.Match(lineAfterSign).Value;
-                        csharpCode.Append(code+ "+@\"");
+                        csharpCode.Append(code+ " + @\"");
                         line=lineAfterSign.Substring(code.Length);
 
                     }
@@ -124,9 +124,10 @@ namespace ViewNamespace
                 compileResult = compileResult
                     .AddReferences(MetadataReference.CreateFromFile(viewModel.GetType().Assembly.Location));
             }
-        /// to do
-           // var libraries = Assembly.Load(new AssemblyName("net5.0")).GetReferencedAssemblies();
-            var libraries = Assembly.Load(new AssemblyName("net5.0")).GetReferencedAssemblies();
+            /// to do
+            // var libraries = Assembly.Load(new AssemblyName("net5.0")).GetReferencedAssemblies();
+            //var assemblyName = .Assembly.FullName;
+            var libraries = Assembly.Load(new AssemblyName("SUS.MvcFramework")).GetReferencedAssemblies();
             foreach (var library in libraries)
             {
                 compileResult = compileResult.AddReferences(MetadataReference.CreateFromFile(Assembly.Load(library).Location));

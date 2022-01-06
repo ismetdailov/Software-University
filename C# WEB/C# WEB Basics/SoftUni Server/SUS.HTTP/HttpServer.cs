@@ -27,7 +27,7 @@ namespace SUS.HTTP
             while (true)
             {
                 TcpClient tcpClient = await tcpListener.AcceptTcpClientAsync();
-                ProcessClientAsync(tcpClient);
+             await   ProcessClientAsync(tcpClient);
             }
         }
 

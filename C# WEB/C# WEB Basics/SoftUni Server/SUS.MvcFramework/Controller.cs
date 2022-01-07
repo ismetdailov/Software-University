@@ -21,20 +21,18 @@ namespace SUS.MvcFramework
       public HttpRequest Request { get; set; }
         public HttpResponse View(object viewModel=null,[CallerMemberName]string viewPath=null)
         {
-            var layout = System.IO.File.ReadAllText("Views/Shared/_Layout.cshtml");
-            layout = layout.Replace("@RenderBody()", "____VIEW_GOES_HERE____");
-            layout = this.viewEngine.GetHtml(layout, viewModel);
-            
-                var viewContent = System.IO.File.ReadAllText("Views/"+ this.GetType()
-                    .Name.Replace("Controller",string.Empty)+"/" +viewPath + ".cshtml" );
+            var viewContent = System.IO.File.ReadAllText("Views/" + this.GetType()
+                  .Name.Replace("Controller", string.Empty) + "/" + viewPath + ".cshtml");
             viewContent = this.viewEngine.GetHtml(viewContent, viewModel);
 
-            var responeHtml = layout.Replace("____VIEW_GOES_HERE____", viewContent);
+            var responeHtml = this.PutViewInLayout(viewContent,viewModel);
+          
                 var resposneBodyBytes = Encoding.UTF8.GetBytes(responeHtml);
                 var response = new HttpResponse("text/html", resposneBodyBytes);
                 return response;
             
         }
+       
         public HttpResponse File(string filePath,string contenType)
         {
             var fileBytes = System.IO.File.ReadAllBytes(filePath);
@@ -47,6 +45,23 @@ namespace SUS.MvcFramework
             var response = new HttpResponse(HttpStatusCode.Found);
             response.Headers.Add(new Header("Location", url));
             return response;
+        }
+        public HttpResponse Error(string errorText)
+        {
+            var viewContent = $"<div class=\"alert alert-danger\" role=\"alert\">{errorText}</div";
+            var responeHtml = this.PutViewInLayout(viewContent);
+
+            var resposneBodyBytes = Encoding.UTF8.GetBytes(responeHtml);
+            var response = new HttpResponse("text/html", resposneBodyBytes,HttpStatusCode.ServerError);
+            return response;
+        }
+        private string PutViewInLayout(string viewContent, object viewModel = null)
+        {
+            var layout = System.IO.File.ReadAllText("Views/Shared/_Layout.cshtml");
+            layout = layout.Replace("@RenderBody()", "____VIEW_GOES_HERE____");
+            layout = this.viewEngine.GetHtml(layout, viewModel);
+            var responeHtml = layout.Replace("____VIEW_GOES_HERE____", viewContent);
+            return responeHtml;
         }
     }
 }

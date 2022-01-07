@@ -90,9 +90,18 @@ namespace SUS.HTTP
                     //    "Content-Type: text/html" + HttpConstans.NewLine +
                     //    "Content-Length: " + resposneBodyBytes.Length + HttpConstans.NewLine +
                     //  HttpConstans.NewLine;
-                    response.Cookies.Add(new ResponseCookie("sid", Guid.NewGuid().ToString())
-                    { HttpOnly = true, MaxAge = 60 * 24 * 60 * 60 });
+                    //response.Cookies.Add(new ResponseCookie("sid", Guid.NewGuid().ToString())
+                    //{ HttpOnly = true, MaxAge = 60 * 24 * 60 * 60 });
                     response.Headers.Add(new Header("Server", "SUS Server 1.0"));
+                    var sessionCookie = request.Cookies.FirstOrDefault(x => x.Name == HttpConstans.SessionCookieName);
+                    //todo !=null
+                    if (sessionCookie != null)
+                    {
+                        var responseSessionCookie = new ResponseCookie(sessionCookie.Name, sessionCookie.Value);
+                        responseSessionCookie.Path = "/";
+                        response.Cookies.Add(responseSessionCookie);
+                    }
+                        
 
                     var responseHeaderBytes = Encoding.UTF8.GetBytes(response.ToString());
 

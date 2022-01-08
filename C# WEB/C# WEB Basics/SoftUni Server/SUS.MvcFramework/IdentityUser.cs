@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SUS.MvcFramework
 {
-  public  class UserIdentity
+  public  class IdentityUser<T>
     {
         public string Id { get; set; }
         [Required]
@@ -17,5 +17,6 @@ namespace SUS.MvcFramework
         public string Email { get; set; }
         [Required]
         public string Password { get; set; }
+        public IdentityRole Role { get; set; }
     }
 }

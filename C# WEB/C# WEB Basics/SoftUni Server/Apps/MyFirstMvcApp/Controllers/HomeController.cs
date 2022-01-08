@@ -14,18 +14,30 @@ namespace MyFirstMvcApp.Controllers
         [HttpGet("/")]
         public HttpResponse Index()
         {
-            var viewModel = new IndexViewModel();
-            viewModel.CurrentYear = DateTime.UtcNow.Year;
-            viewModel.Message = "Welcome to Battle Cards";
-            if (this.Request.Session.ContainsKey("about"))
+            //var viewModel = new IndexViewModel();
+            //viewModel.CurrentYear = DateTime.UtcNow.Year;
+            //viewModel.Message = "Welcome to Battle Cards";
+            ////if (this.Request.Session.ContainsKey("about"))
+            ////{
+            ////    viewModel.Message+= "You Were on the About Page";
+            ////}
+            //if (this.IsUserSignedIn())
+            //{
+            //    viewModel.Message += "WELCOME USER";
+            //}
+            if (this.IsUserSignedIn())
             {
-                viewModel.Message+= "You Were on the About Page";
+                return this.Redirect("Cards/All");
             }
-            return this.View(viewModel);
+            else
+            {
+            return this.View();
+            }
         }
         public HttpResponse About()
         {
-            this.Request.Session["about"] = "Yes";
+            this.SignIn("niki");
+          //  this.Request.Session["about"] = "Yes";
             return this.View();
         }
     }

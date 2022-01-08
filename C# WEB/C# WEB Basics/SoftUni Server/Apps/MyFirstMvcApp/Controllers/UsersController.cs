@@ -15,19 +15,33 @@ namespace MyFirstMvcApp.Controllers
         {
             return this.View();
         }
-            // [HttpPost]
+        [HttpPost("/User/Login")]
+        public HttpResponse DoLogin()
+        {
+            return this.Redirect("/");
+
+        }
         public HttpResponse Register()
         {
             return this.View();
 
         }
 
-        [HttpPost]
-        public HttpResponse DoLogin()
+        [HttpPost("/Users/Register")]
+        public HttpResponse DoRegister()
         {
             //Todo read data
             //check user
             //log user
+            return this.Redirect("/");
+        }
+        public HttpResponse Logout()
+        {
+            if (!this.IsUserSignedIn())
+            {
+                return this.Error("Only logget-in users can logout");
+            }
+            this.SignOut();
             return this.Redirect("/");
         }
     }

@@ -14,26 +14,26 @@ namespace SUS.MvcFramework.ViewEngine
 {
     public class SusViewEngine : IViewEngine
     {
-        public string GetHtml(string templateCode, object viewModel)
+        public string GetHtml(string templateCode, object viewModel,string user)
         {
-            string csharpCode = GenerateCSharpFromTemplate(templateCode,viewModel);
+            string csharpCode = GenerateCSharpFromTemplate(templateCode, viewModel);
             IView executableObject = GenerateExecutableCode(csharpCode, viewModel);
-            string html = executableObject.ExecuteTemplate(viewModel);
+            string html = executableObject.ExecuteTemplate(viewModel,user);
             return html.TrimEnd();
         }
 
 
         private string GenerateCSharpFromTemplate(string templateCode, object viewModel)
         {
-            string typeOfModel= "object";
+            string typeOfModel = "object";
             if (viewModel != null)
             {
                 if (viewModel.GetType().IsGenericType)
                 {
-                    var modelName= viewModel.GetType().FullName;
+                    var modelName = viewModel.GetType().FullName;
                     var genericArguments = viewModel.GetType().GenericTypeArguments;
-                    typeOfModel = modelName.Substring(0,modelName.IndexOf('`')) + "<"+ string.Join(",",genericArguments
-                        .Select(x=>x.FullName)) + ">";
+                    typeOfModel = modelName.Substring(0, modelName.IndexOf('`')) + "<" + string.Join(",", genericArguments
+                        .Select(x => x.FullName)) + ">";
                 }
                 else
                 {
@@ -53,8 +53,9 @@ namespace ViewNamespace
 {
      public class ViewClass : IView
      {
-        public string ExecuteTemplate(object viewModel)
+        public string ExecuteTemplate(object viewModel, string user)
         {
+            var User = user;
             var Model = viewModel as " + typeOfModel + @";
             var html = new StringBuilder();
             " + GetMethodBody(templateCode) + @";
@@ -72,13 +73,13 @@ namespace ViewNamespace
         private string GetMethodBody(string templateCode)
         {
             Regex csharpCodeRegex = new Regex(@"[^\""\s&\'\<]+");
-            var supportedOperators = new List<string> { "for", "while", "if","else", "foreach" };
+            var supportedOperators = new List<string> { "for", "while", "if", "else", "foreach" };
             StringBuilder csharpCode = new StringBuilder();
             StringReader sr = new StringReader(templateCode);
             string line;
-            while ((line =sr.ReadLine()) !=null )
+            while ((line = sr.ReadLine()) != null)
             {
-                if ( supportedOperators.Any(x => line.TrimStart().StartsWith("@" + x))) 
+                if (supportedOperators.Any(x => line.TrimStart().StartsWith("@" + x)))
                 {
                     var atSignLocation = line.IndexOf("@");
                     line = line.Remove(atSignLocation, 1);
@@ -97,18 +98,18 @@ namespace ViewNamespace
                         var htmlBeforeAtSign = line.Substring(0, atSignLocation);
                         csharpCode.Append(htmlBeforeAtSign.Replace("\"", "\"\"") + "\" + ");
                         var lineAfterSign = line.Substring(atSignLocation + 1);
-                      var code=  csharpCodeRegex.Match(lineAfterSign).Value;
-                        csharpCode.Append(code+ " + @\"");
-                        line=lineAfterSign.Substring(code.Length);
+                        var code = csharpCodeRegex.Match(lineAfterSign).Value;
+                        csharpCode.Append(code + " + @\"");
+                        line = lineAfterSign.Substring(code.Length);
 
                     }
                     csharpCode.AppendLine(line.Replace("\"", "\"\"") + "\");");
-            //   csharpCode.AppendLine($"html.AppendLine(@\"{line.Replace("\"","\"\"")}\";");
-             //       csharpCode.AppendLine("\");");
+                    //   csharpCode.AppendLine($"html.AppendLine(@\"{line.Replace("\"","\"\"")}\";");
+                    //       csharpCode.AppendLine("\");");
                 }
             }
             return csharpCode.ToString();
-            
+
 
             ///return string.Empty;
         }
@@ -121,8 +122,18 @@ namespace ViewNamespace
                   .AddReferences(MetadataReference.CreateFromFile(typeof(IView).Assembly.Location));
             if (viewModel != null)
             {
+                //var generiArguments = viewModel.GetType().GenericTypeArguments;
+                //if (viewModel.GetType().IsGenericType)
+                //{
+                //    foreach (var genericArgument in generiArguments)
+                //    {
+                //        compileResult = compileResult
+                //            .AddReferences(MetadataReference.CreateFromFile(generiArguments.GetType().Assembly.Location));
+
+                //    }
+                //}
                 compileResult = compileResult
-                    .AddReferences(MetadataReference.CreateFromFile(viewModel.GetType().Assembly.Location));
+                  .AddReferences(MetadataReference.CreateFromFile(viewModel.GetType().Assembly.Location));
             }
             /// to do
             // var libraries = Assembly.Load(new AssemblyName("net5.0")).GetReferencedAssemblies();
@@ -149,14 +160,14 @@ namespace ViewNamespace
                     var assembly = Assembly.Load(byteAssembly);
                     var viewType = assembly.GetType("ViewNamespace.ViewClass");
                     var instance = Activator.CreateInstance(viewType);
-                    return (instance as IView) 
+                    return (instance as IView)
                         ?? new ErrorView(new List<string> { "Instance is null!" }, csharpCode);
                 }
                 catch (Exception ex)
                 {
                     return new ErrorView(new List<string> { ex.ToString() }, csharpCode);
                 }
-            
+
             }
         }
     }

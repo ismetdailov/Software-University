@@ -78,7 +78,7 @@ namespace SUS.HTTP
             var parameters = this.Body.Split(new char[] { '&' },StringSplitOptions.RemoveEmptyEntries);
             foreach (var parametur in parameters)
             {
-                var parameterParts = parametur.Split('=');
+                var parameterParts = parametur.Split(new[] { '=' },2);
                 var name = parameterParts[0];
                 var value = WebUtility.UrlDecode(parameterParts[1]);
                 if (!this.FormData.ContainsKey(name))

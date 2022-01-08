@@ -16,7 +16,7 @@ namespace SUS.MvcFramework.ViewEngine
             this.errors = errors;
             this.csharpCode = csharpCode;
         }
-        public string ExecuteTemplate(object viewModel)
+        public string ExecuteTemplate(object viewModel, string user)
         {
             var html = new StringBuilder();
             html.AppendLine($"<h1>View compile {this.errors.Count()} errors:</h1");

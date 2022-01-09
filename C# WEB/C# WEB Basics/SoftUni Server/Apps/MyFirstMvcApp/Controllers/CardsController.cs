@@ -1,5 +1,6 @@
 ﻿using MyFirstMvcApp.Data;
 using MyFirstMvcApp.ViewModels;
+using MyFirstMvcApp.ViewModels.Cards;
 using SUS.HTTP;
 using SUS.MvcFramework;
 using System;
@@ -27,7 +28,7 @@ namespace MyFirstMvcApp.Controllers
             return this.View();
         }
         [HttpPost("/Cards/Add")]
-        public HttpResponse DoAdd(string attack,string health,string description,string name, string image,string keyword)
+        public HttpResponse DoAdd(AddCardInputModel model)
         {
             if (!this.IsUserSignedIn())
             {
@@ -40,12 +41,12 @@ namespace MyFirstMvcApp.Controllers
             }
             this.db.Cards.Add(new Card
             {
-                Attack = int.Parse(attack),
-                Health = int.Parse(health),
-                Name = name,
-                Description =description,
-                ImageUrl = image,
-                Keyword =keyword,
+                Attack =model.Attack,
+                Health = model.Health,
+                Name = model.Name,
+                Description = model.Description,
+                ImageUrl = model.Image,
+                Keyword = model.Keyword,
             }) ;
             //var viewModel = new DoAddViewModel
             //{

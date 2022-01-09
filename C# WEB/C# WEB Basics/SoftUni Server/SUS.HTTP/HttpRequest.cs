@@ -87,7 +87,7 @@ namespace SUS.HTTP
             }
             this.Body = bodyBuilder.ToString().TrimEnd('\n','\r');
             SplitParameters(this.Body, this.FormData);
-            SplitParameters(this.QueryString,this.QueryData)
+            SplitParameters(this.QueryString, this.QueryData);
          
         }
         private static void SplitParameters(string parametersAsString, IDictionary<string,string> output)

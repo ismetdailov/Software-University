@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstMvcApp.ViewModels
+namespace MyFirstMvcApp.ViewModels.Cards
 {
   public  class CardViewModel
     {

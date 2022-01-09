@@ -12,9 +12,9 @@ namespace MyFirstMvcApp.Servises
     public class UserService : IUsersService
     {
         private readonly ApplicationDbContext db;
-        public UserService()
+        public UserService(ApplicationDbContext db)
         {
-            this.db = new ApplicationDbContext();
+            this.db = db;
         }
         public string CreateUser(string username, string email, string password)
         {
@@ -43,6 +43,10 @@ namespace MyFirstMvcApp.Servises
         public string GetUserId(string username, string password)
         {
             var user = this.db.Users.FirstOrDefault(x => x.Username == username);
+            if (user?.Password != ComputeHash(password))
+            {
+                return null;
+            }
             return user?.Id;
         }
         private static string ComputeHash(string input)

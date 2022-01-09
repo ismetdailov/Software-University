@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyFirstMvcApp.Controllers;
 using MyFirstMvcApp.Data;
+using MyFirstMvcApp.Servises;
 using SUS.HTTP;
 using SUS.MvcFramework;
 using System;
@@ -14,21 +15,16 @@ namespace MyFirstMvcApp
     public class Startup : IMvcApplication
     {
 
-        public void ConfigureServices()
+        public void ConfigureServices(IServiceCollection serviceCollection)
         {
-           
+            serviceCollection.Add<IUsersService,UserService>();
+            serviceCollection.Add<ICardsService, CardsService>();
+            //serviceCollection.Add<ApplicationDbContext, ApplicationDbContext>();
         }
         public void Configure(List<Route> routeTable)
         {
             new ApplicationDbContext().Database.Migrate();
-            //routeTable.Add(new Route("/", HttpMethod.Get,new HomeController().Index));
-            //routeTable.Add(new Route("/home/about", HttpMethod.Get,new HomeController().About));
-            //routeTable.Add(new Route("/users/login", HttpMethod.Get, new UsersController().Login));
-            //routeTable.Add(new Route("/users/login", HttpMethod.Post, new UsersController().DoLogin));
-            //routeTable.Add(new Route("/users/register", HttpMethod.Get, new UsersController().Register));
-            //routeTable.Add(new Route("/cards/all", HttpMethod.Get, new CardsController().All));
-            //routeTable.Add(new Route("/cards/add", HttpMethod.Get, new CardsController().Add));
-            //routeTable.Add(new Route("/cards/collection", HttpMethod.Get, new CardsController().Collection));
+           
         }
     }
 }

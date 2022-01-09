@@ -34,11 +34,6 @@ namespace MyFirstMvcApp.Controllers
             return this.View();
             }
         }
-        public HttpResponse About()
-        {
-            this.SignIn("niki");
-          //  this.Request.Session["about"] = "Yes";
-            return this.View();
-        }
+   
     }
 }

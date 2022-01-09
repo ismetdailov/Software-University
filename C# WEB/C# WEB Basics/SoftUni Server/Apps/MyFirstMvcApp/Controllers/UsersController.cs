@@ -15,33 +15,44 @@ namespace MyFirstMvcApp.Controllers
     public class UsersController : Controller
     {
         //otgovornost na kontrolera e da proverqva validaciite
-        private UserService userService;
+        private readonly IUsersService usersService;
 
-        public UsersController()
+        public UsersController(IUsersService usersService)
         {
-            this.userService = new UserService();
+            this.usersService = usersService;
         }
         public HttpResponse Login()
         {
+            if (this.IsUserSignedIn())
+            {
+                return this.Redirect("/");
+            }
             return this.View();
         }
         [HttpPost("/Users/Login")]
         public HttpResponse DoLogin()
         {
+            if (this.IsUserSignedIn())
+            {
+                return this.Redirect("/");
+            }
             var username = this.Request.FormData["username"];
             var password = this.Request.FormData["password"];
-            var userId = this.userService.GetUserId(username, password);
+            var userId = this.usersService.GetUserId(username, password);
             if (userId ==null)
             {
                 return this.Error("Invalid username or password");
             }
             this.SignIn(userId);
-            return this.Redirect("/");
+            return this.Redirect("/Cards/All");
 
         }
         public HttpResponse Register()
         {
-
+            if (this.IsUserSignedIn())
+            {
+                return this.Redirect("/");
+            }
             return this.View();
 
         }
@@ -49,6 +60,10 @@ namespace MyFirstMvcApp.Controllers
         [HttpPost("/Users/Register")]
         public HttpResponse DoRegister()
         {
+            if (this.IsUserSignedIn())
+            {
+                return this.Redirect("/");
+            }
             var username = this.Request.FormData["username"];
             var email = this.Request.FormData["email"];
             var password = this.Request.FormData["password"];
@@ -75,15 +90,15 @@ namespace MyFirstMvcApp.Controllers
             {
                 return this.Error("Passwords should be the same");
             }
-            if (!this.userService.IsUsernameAvialable(username))
+            if (!this.usersService.IsUsernameAvialable(username))
             {
                 return this.Error("Username already taken.");
             }
-            if (!this.userService.IsEmailAvialable(email))
+            if (!this.usersService.IsEmailAvialable(email))
             {
                 return this.Error("Email already taken");
             }
-         this.userService.CreateUser(username, email, password);
+         this.usersService.CreateUser(username, email, password);
 
 
             return this.Redirect("/Users/Login");

@@ -58,16 +58,16 @@ namespace MyFirstMvcApp.Controllers
         }
 
         [HttpPost("/Users/Register")]
-        public HttpResponse DoRegister()
+        public HttpResponse DoRegister(string username, string email, string password, string confirmPassword)
         {
             if (this.IsUserSignedIn())
             {
                 return this.Redirect("/");
             }
-            var username = this.Request.FormData["username"];
-            var email = this.Request.FormData["email"];
-            var password = this.Request.FormData["password"];
-            var confirmpassword = this.Request.FormData["confirmPassword"];
+            //var username = this.Request.FormData["username"];
+            //var email = this.Request.FormData["email"];
+            //var password = this.Request.FormData["password"];
+            //var confirmpassword = this.Request.FormData["confirmPassword"];
             //tova e surver side validaciq
             if (username == null || username.Length<5|| username.Length>20)
             {
@@ -86,7 +86,7 @@ namespace MyFirstMvcApp.Controllers
                 return this.Error("Invalid password. The password should be between 6 and 20 symbols");
 
             }
-            if (password != confirmpassword)
+            if (password != confirmPassword)
             {
                 return this.Error("Passwords should be the same");
             }

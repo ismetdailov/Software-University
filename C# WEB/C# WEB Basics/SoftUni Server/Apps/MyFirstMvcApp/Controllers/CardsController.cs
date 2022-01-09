@@ -27,7 +27,7 @@ namespace MyFirstMvcApp.Controllers
             return this.View();
         }
         [HttpPost("/Cards/Add")]
-        public HttpResponse DoAdd()
+        public HttpResponse DoAdd(string attack,string health,string description,string name, string image,string keyword)
         {
             if (!this.IsUserSignedIn())
             {
@@ -40,12 +40,12 @@ namespace MyFirstMvcApp.Controllers
             }
             this.db.Cards.Add(new Card
             {
-                Attack = int.Parse(this.Request.FormData["attack"]),
-                Health = int.Parse(this.Request.FormData["health"]),
-                Name = this.Request.FormData["name"],
-                Description = this.Request.FormData["description"],
-                ImageUrl =   this.Request.FormData["image"],
-                Keyword =this.Request.FormData["keyword"],
+                Attack = int.Parse(attack),
+                Health = int.Parse(health),
+                Name = name,
+                Description =description,
+                ImageUrl = image,
+                Keyword =keyword,
             }) ;
             //var viewModel = new DoAddViewModel
             //{

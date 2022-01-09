@@ -8,8 +8,8 @@ namespace MyFirstMvcApp.Servises
 {
  public interface IUsersService
     {
-        void CreateUser(string username, string email, string password);
-        bool IsUserValid(string username, string password);
+        string CreateUser(string username, string email, string password);
+       string GetUserId(string username, string password);
         bool IsUsernameAvialable(string username);
         bool IsEmailAvialable(string email);
     }

@@ -12,7 +12,7 @@ namespace SUS.MvcFramework
 {
     public abstract class Controller
     {
-        private const string UserIdSessionName = "USerId";
+        private const string UserIdSessionName = "UserId";
         private SusViewEngine viewEngine;
 
         public Controller()

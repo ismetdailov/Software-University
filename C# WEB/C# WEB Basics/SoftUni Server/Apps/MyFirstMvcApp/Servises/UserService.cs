@@ -16,7 +16,7 @@ namespace MyFirstMvcApp.Servises
         {
             this.db = new ApplicationDbContext();
         }
-        public void CreateUser(string username, string email, string password)
+        public string CreateUser(string username, string email, string password)
         {
             var user = new User
             {
@@ -27,6 +27,7 @@ namespace MyFirstMvcApp.Servises
             };
             this.db.Users.Add(user);
             this.db.SaveChanges();
+            return user.Id;
         }
 
         public bool IsEmailAvialable(string email)
@@ -39,13 +40,11 @@ namespace MyFirstMvcApp.Servises
             return !this.db.Users.Any(x => x.Username == username);
         }
 
-        public bool IsUserValid(string username, string password)
+        public string GetUserId(string username, string password)
         {
             var user = this.db.Users.FirstOrDefault(x => x.Username == username);
-            return user.Password == ComputeHash(password);
+            return user?.Id;
         }
-
-
         private static string ComputeHash(string input)
         {
             var bytes = System.Text.Encoding.UTF8.GetBytes(input);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj": {}
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj": {}
   },
   "projects": {
-    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
         "projectName": "MoiteRecepti.Services.Messaging",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,13 +42,13 @@
           "dependencies": {
             "Sendgrid": {
               "target": "Package",
-              "version": "[9.23.1, )"
+              "version": "[9.25.2, )"
             },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             }
           },
           "imports": [

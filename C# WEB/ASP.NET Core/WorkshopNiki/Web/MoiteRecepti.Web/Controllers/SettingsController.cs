@@ -1,15 +1,14 @@
-﻿using System;
-using System.Threading.Tasks;
-
-using MoiteRecepti.Data.Common.Repositories;
-using MoiteRecepti.Data.Models;
-using MoiteRecepti.Services.Data;
-using MoiteRecepti.Web.ViewModels.Settings;
-
-using Microsoft.AspNetCore.Mvc;
-
-namespace MoiteRecepti.Web.Controllers
+﻿namespace MoiteRecepti.Web.Controllers
 {
+    using System;
+    using System.Threading.Tasks;
+
+    using Microsoft.AspNetCore.Mvc;
+    using MoiteRecepti.Data.Common.Repositories;
+    using MoiteRecepti.Data.Models;
+    using MoiteRecepti.Services.Data;
+    using MoiteRecepti.Web.ViewModels.Settings;
+
     public class SettingsController : BaseController
     {
         private readonly ISettingsService settingsService;

@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-using MoiteRecepti.Data.Common.Repositories;
-using MoiteRecepti.Data.Models;
-using MoiteRecepti.Services.Mapping;
-
-namespace MoiteRecepti.Services.Data
+﻿namespace MoiteRecepti.Services.Data
 {
+    using System.Collections.Generic;
+    using System.Linq;
+
+    using MoiteRecepti.Data.Common.Repositories;
+    using MoiteRecepti.Data.Models;
+    using MoiteRecepti.Services.Mapping;
+
     public class SettingsService : ISettingsService
     {
         private readonly IDeletableEntityRepository<Setting> settingsRepository;

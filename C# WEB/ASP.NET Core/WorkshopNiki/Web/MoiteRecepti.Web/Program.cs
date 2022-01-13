@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
-
-namespace MoiteRecepti.Web
+﻿namespace MoiteRecepti.Web
 {
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.Hosting;
+
     public static class Program
     {
         public static void Main(string[] args)

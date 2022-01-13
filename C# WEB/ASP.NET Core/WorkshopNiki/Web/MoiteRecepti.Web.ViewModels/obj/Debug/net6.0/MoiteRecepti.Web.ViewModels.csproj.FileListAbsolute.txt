@@ -17,3 +17,22 @@ G:\C# WEB\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRec
 G:\C# WEB\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.dll
 G:\C# WEB\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\ref\MoiteRecepti.Web.ViewModels.dll
 G:\C# WEB\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\ref\MoiteRecepti.Web.ViewModels.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Data.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Data.Models.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Data.Models.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\bin\Debug\net6.0\MoiteRecepti.Data.Common.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.csproj.CopyComplete
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\ref\MoiteRecepti.Web.ViewModels.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.ViewModels\obj\Debug\net6.0\MoiteRecepti.Web.ViewModels.pdb

@@ -13,3 +13,18 @@ G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecep
 G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.dll
 G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\ref\MoiteRecepti.Data.Models.dll
 G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Models.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Models.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\ref\MoiteRecepti.Data.Models.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Models.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Common.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.csproj.CopyComplete
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\ref\MoiteRecepti.Data.Models.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.pdb

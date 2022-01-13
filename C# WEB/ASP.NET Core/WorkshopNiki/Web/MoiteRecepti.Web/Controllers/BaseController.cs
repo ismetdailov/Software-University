@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-namespace MoiteRecepti.Web.Controllers
+﻿namespace MoiteRecepti.Web.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+
     public class BaseController : Controller
     {
     }

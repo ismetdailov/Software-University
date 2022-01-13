@@ -1,16 +1,33 @@
-﻿using System.Diagnostics;
-
-using MoiteRecepti.Web.ViewModels;
-
-using Microsoft.AspNetCore.Mvc;
-
-namespace MoiteRecepti.Web.Controllers
+﻿namespace MoiteRecepti.Web.Controllers
 {
+    using System.Diagnostics;
+
+    using Microsoft.AspNetCore.Mvc;
+    using MoiteRecepti.Services.Data;
+    using MoiteRecepti.Web.ViewModels;
+    using MoiteRecepti.Web.ViewModels.Home;
+
     public class HomeController : BaseController
     {
+        private readonly IGetCountsService countsService;
+
+        public HomeController(IGetCountsService countsService)
+        {
+            this.countsService = countsService;
+        }
+
         public IActionResult Index()
         {
-            return this.View();
+            var countsDto = this.countsService.GetCounts();
+           // var viewModel = this.mapper.Map<IndexViewModel>(countsDto);
+            var viewModel = new IndexViewModel
+            {
+                CategoriesCount = countsDto.CategoriesCount,
+                ImagesCount = countsDto.ImagesCount,
+                RecipiesCount = countsDto.RecipiesCount,
+                IngredientsCount = countsDto.IngredientsCount,
+            };
+            return this.View(viewModel);
         }
 
         public IActionResult Privacy()

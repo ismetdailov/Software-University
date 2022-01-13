@@ -1,9 +1,9 @@
-﻿using System.Linq;
-
-using MoiteRecepti.Data.Common.Models;
-
-namespace MoiteRecepti.Data.Common.Repositories
+﻿namespace MoiteRecepti.Data.Common.Repositories
 {
+    using System.Linq;
+
+    using MoiteRecepti.Data.Common.Models;
+
     public interface IDeletableEntityRepository<TEntity> : IRepository<TEntity>
         where TEntity : class, IDeletableEntity
     {

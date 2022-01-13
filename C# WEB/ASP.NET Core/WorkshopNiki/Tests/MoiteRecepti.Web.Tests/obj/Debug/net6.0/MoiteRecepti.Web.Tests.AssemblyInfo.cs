@@ -11,23 +11,30 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common", "MoiteRecepti.Common.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Data.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common", "MoiteRecepti.Data.Common.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data", "MoiteRecepti.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Data.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models", "MoiteRecepti.Data.Models.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common", "MoiteRecepti.Common.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Data.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Co" +
+    "mmon", "MoiteRecepti.Data.Common.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data", "MoiteRecepti.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Data.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Mo" +
+    "dels", "MoiteRecepti.Data.Models.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Services.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" +
-    "", "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data", "MoiteRecepti.Services.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services", "MoiteRecepti.Services.csproj", "0")]
+    "", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Ser" +
+    "vices.Data", "MoiteRecepti.Services.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Ser" +
+    "vices", "MoiteRecepti.Services.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Services.Mapping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=n" +
-    "ull", "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping", "MoiteRecepti.Services.Mapping.csproj", "0")]
+    "ull", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Ser" +
+    "vices.Mapping", "MoiteRecepti.Services.Mapping.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Services.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken" +
-    "=null", "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging", "MoiteRecepti.Services.Messaging.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web", "MoiteRecepti.Web.csproj", "0")]
+    "=null", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Ser" +
+    "vices.Messaging", "MoiteRecepti.Services.Messaging.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web", "MoiteRecepti.Web.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken" +
-    "=null", "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure", "MoiteRecepti.Web.Infrastructure.csproj", "0")]
+    "=null", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infr" +
+    "astructure", "MoiteRecepti.Web.Infrastructure.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MoiteRecepti.Web.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nul" +
-    "l", "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.ViewModels", "MoiteRecepti.Web.ViewModels.csproj", "0")]
+    "l", "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web.View" +
+    "Models", "MoiteRecepti.Web.ViewModels.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoiteRecepti.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

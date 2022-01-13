@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
-namespace MoiteRecepti.Data.Seeding
+﻿namespace MoiteRecepti.Data.Seeding
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
+
     public class ApplicationDbContextSeeder : ISeeder
     {
         public async Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider)
@@ -27,6 +27,7 @@ namespace MoiteRecepti.Data.Seeding
                           {
                               new RolesSeeder(),
                               new SettingsSeeder(),
+                              new CategorySeeder(),
                           };
 
             foreach (var seeder in seeders)

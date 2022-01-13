@@ -1,10 +1,9 @@
-﻿using MoiteRecepti.Services.Data;
-using MoiteRecepti.Web.ViewModels.Administration.Dashboard;
-
-using Microsoft.AspNetCore.Mvc;
-
-namespace MoiteRecepti.Web.Areas.Administration.Controllers
+﻿namespace MoiteRecepti.Web.Areas.Administration.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+    using MoiteRecepti.Services.Data;
+    using MoiteRecepti.Web.ViewModels.Administration.Dashboard;
+
     public class DashboardController : AdministrationController
     {
         private readonly ISettingsService settingsService;

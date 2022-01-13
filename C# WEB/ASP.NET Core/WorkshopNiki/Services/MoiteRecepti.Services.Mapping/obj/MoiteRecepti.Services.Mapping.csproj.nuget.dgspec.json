@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {}
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {}
   },
   "projects": {
-    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
         "projectName": "MoiteRecepti.Services.Mapping",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,13 +42,13 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[10.1.1, )"
+              "version": "[11.0.0, )"
             },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             }
           },
           "imports": [

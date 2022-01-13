@@ -8,20 +8,20 @@
     ".NETCoreApp,Version=v6.0": {
       "MoiteRecepti.Data.Common/1.0.0": {
         "dependencies": {
-          "StyleCop.Analyzers": "1.2.0-beta.312",
-          "System.ComponentModel.Annotations": "5.0.0"
+          "StyleCop.Analyzers": "1.2.0-beta.376",
+          "System.ComponentModel.Annotations": "6.0.0-preview.4.21253.7"
         },
         "runtime": {
           "MoiteRecepti.Data.Common.dll": {}
         }
       },
-      "StyleCop.Analyzers/1.2.0-beta.312": {
+      "StyleCop.Analyzers/1.2.0-beta.376": {
         "dependencies": {
-          "StyleCop.Analyzers.Unstable": "1.2.0.312"
+          "StyleCop.Analyzers.Unstable": "1.2.0.376"
         }
       },
-      "StyleCop.Analyzers.Unstable/1.2.0.312": {},
-      "System.ComponentModel.Annotations/5.0.0": {}
+      "StyleCop.Analyzers.Unstable/1.2.0.376": {},
+      "System.ComponentModel.Annotations/6.0.0-preview.4.21253.7": {}
     }
   },
   "libraries": {
@@ -30,26 +30,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "StyleCop.Analyzers/1.2.0-beta.312": {
+    "StyleCop.Analyzers/1.2.0-beta.376": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SQCTxlYm6+d4rJ1/hNVLNryOZx6y23Z0JYp9WmUu6YtCApNMyUNJ//4yucqP7al2Jv0kwBuTRyK/4qWmGmIA/A==",
-      "path": "stylecop.analyzers/1.2.0-beta.312",
-      "hashPath": "stylecop.analyzers.1.2.0-beta.312.nupkg.sha512"
+      "sha512": "sha512-uaaVoOYWfIMoWtZsNJwV0m/GI3XAi8BA71e9iBOFDPo3TtAmcGkZ2qcxItkWb6eKI90urOPmxc35BnuhluC1IA==",
+      "path": "stylecop.analyzers/1.2.0-beta.376",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.376.nupkg.sha512"
     },
-    "StyleCop.Analyzers.Unstable/1.2.0.312": {
+    "StyleCop.Analyzers.Unstable/1.2.0.376": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MtkINha/h9vxhjRR9mYiwtwGGeJQzgshCuQkwlSGHjXdo3hJB769Jiu6Lh0/ouyTXck0gE0ZD0UCjmaY6hCwHQ==",
-      "path": "stylecop.analyzers.unstable/1.2.0.312",
-      "hashPath": "stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+      "sha512": "sha512-a009jDRd7zP6h+jenZ7nGjqkkFkEuxmT9FeM334cLDwodfU2x/nNcsFqw2Pjd4wVPiyX+qjLq+vhhbE3OPzFMw==",
+      "path": "stylecop.analyzers.unstable/1.2.0.376",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.376.nupkg.sha512"
     },
-    "System.ComponentModel.Annotations/5.0.0": {
+    "System.ComponentModel.Annotations/6.0.0-preview.4.21253.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
-      "path": "system.componentmodel.annotations/5.0.0",
-      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+      "sha512": "sha512-h0eWBYUk1rLI31AAmLMgmVzy6UBMUBvRfAqB9VH+O8pMT5GBFpBJoTEIdhBfzcn7VS+aPPDzpLlASHXdjt2qXQ==",
+      "path": "system.componentmodel.annotations/6.0.0-preview.4.21253.7",
+      "hashPath": "system.componentmodel.annotations.6.0.0-preview.4.21253.7.nupkg.sha512"
     }
   }
 }

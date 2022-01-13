@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yd8HnPWBhy78OUpbSlrofU/AtZv0aq5TdKVqgefTc16NNzapFHFGvaaJaVies9KEWWS84ZpdBn5HnviP0ih+jA==",
+  "dgSpecHash": "T1gJvV9Yc5RjujfbKCDAjOq9zjGOw8ejZARSF6zSGO8WvsKwQZg4FUT2mTeGMzsGdcgLD9hgWHK7vIDAM2zP4A==",
   "success": true,
-  "projectFilePath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
+  "projectFilePath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dailo\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
-    "C:\\Users\\dailo\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
-    "C:\\Users\\dailo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\dailo\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.376\\stylecop.analyzers.1.2.0-beta.376.nupkg.sha512",
+    "C:\\Users\\dailo\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.376\\stylecop.analyzers.unstable.1.2.0.376.nupkg.sha512",
+    "C:\\Users\\dailo\\.nuget\\packages\\system.componentmodel.annotations\\6.0.0-preview.4.21253.7\\system.componentmodel.annotations.6.0.0-preview.4.21253.7.nupkg.sha512"
   ],
   "logs": []
 }

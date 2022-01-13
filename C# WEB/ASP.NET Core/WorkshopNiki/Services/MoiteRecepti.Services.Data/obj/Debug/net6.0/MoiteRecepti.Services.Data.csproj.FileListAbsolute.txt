@@ -17,3 +17,22 @@ G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\Moit
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.dll
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\ref\MoiteRecepti.Services.Data.dll
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Services.Data.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Services.Data.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\ref\MoiteRecepti.Services.Data.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Services.Data.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Data.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Data.Models.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Data.Common.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Data.Models.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.csproj.CopyComplete
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\ref\MoiteRecepti.Services.Data.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.pdb

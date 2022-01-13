@@ -1,11 +1,10 @@
-﻿using System.Linq;
-
-using MoiteRecepti.Data.Common.Models;
-
-using Microsoft.EntityFrameworkCore;
-
-namespace MoiteRecepti.Data
+﻿namespace MoiteRecepti.Data
 {
+    using System.Linq;
+
+    using Microsoft.EntityFrameworkCore;
+    using MoiteRecepti.Data.Common.Models;
+
     internal static class EntityIndexesConfiguration
     {
         public static void Configure(ModelBuilder modelBuilder)

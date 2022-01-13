@@ -1,12 +1,11 @@
-﻿using System;
-using System.Threading.Tasks;
-
-using MoiteRecepti.Data.Common;
-
-using Microsoft.EntityFrameworkCore;
-
-namespace MoiteRecepti.Data
+﻿namespace MoiteRecepti.Data
 {
+    using System;
+    using System.Threading.Tasks;
+
+    using Microsoft.EntityFrameworkCore;
+    using MoiteRecepti.Data.Common;
+
     public class DbQueryRunner : IDbQueryRunner
     {
         public DbQueryRunner(ApplicationDbContext context)

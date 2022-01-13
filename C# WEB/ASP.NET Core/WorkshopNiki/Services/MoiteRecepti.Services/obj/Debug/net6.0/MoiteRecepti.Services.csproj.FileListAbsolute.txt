@@ -10,3 +10,15 @@ G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRece
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.dll
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\ref\MoiteRecepti.Services.dll
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\bin\Debug\net6.0\MoiteRecepti.Services.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\bin\Debug\net6.0\MoiteRecepti.Services.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\bin\Debug\net6.0\ref\MoiteRecepti.Services.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\bin\Debug\net6.0\MoiteRecepti.Services.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\ref\MoiteRecepti.Services.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.pdb

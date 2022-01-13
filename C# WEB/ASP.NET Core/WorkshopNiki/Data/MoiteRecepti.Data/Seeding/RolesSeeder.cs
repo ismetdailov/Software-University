@@ -1,15 +1,14 @@
-﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
-
-using MoiteRecepti.Common;
-using MoiteRecepti.Data.Models;
-
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace MoiteRecepti.Data.Seeding
+﻿namespace MoiteRecepti.Data.Seeding
 {
+    using System;
+    using System.Linq;
+    using System.Threading.Tasks;
+
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.Extensions.DependencyInjection;
+    using MoiteRecepti.Common;
+    using MoiteRecepti.Data.Models;
+
     internal class RolesSeeder : ISeeder
     {
         public async Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider)

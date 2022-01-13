@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
+      "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
       "projectName": "MoiteRecepti.Common",
-      "projectPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
+      "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
       "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-      "outputPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\obj\\",
+      "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",

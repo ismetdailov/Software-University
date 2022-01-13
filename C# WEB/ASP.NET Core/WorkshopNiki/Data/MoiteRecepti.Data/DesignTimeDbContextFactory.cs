@@ -1,11 +1,11 @@
-﻿using System.IO;
-
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.Extensions.Configuration;
-
-namespace MoiteRecepti.Data
+﻿namespace MoiteRecepti.Data
 {
+    using System.IO;
+
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.Design;
+    using Microsoft.Extensions.Configuration;
+
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
     {
         public ApplicationDbContext CreateDbContext(string[] args)

@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-
-namespace MoiteRecepti.Services.Messaging
+﻿namespace MoiteRecepti.Services.Messaging
 {
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+
     public class NullMessageSender : IEmailSender
     {
         public Task SendEmailAsync(

@@ -1,17 +1,16 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
-using System.Threading;
-using System.Threading.Tasks;
-
-using MoiteRecepti.Data.Common.Models;
-using MoiteRecepti.Data.Models;
-
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-
-namespace MoiteRecepti.Data
+﻿namespace MoiteRecepti.Data
 {
+    using System;
+    using System.Linq;
+    using System.Reflection;
+    using System.Threading;
+    using System.Threading.Tasks;
+
+    using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore;
+    using MoiteRecepti.Data.Common.Models;
+    using MoiteRecepti.Data.Models;
+
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
         private static readonly MethodInfo SetIsDeletedQueryFilterMethod =
@@ -25,6 +24,18 @@ namespace MoiteRecepti.Data
         }
 
         public DbSet<Setting> Settings { get; set; }
+
+        public DbSet<Recipie> Recipies { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Image> Images { get; set; }
+
+        public DbSet<Ingredient> Ingredients { get; set; }
+
+        public DbSet<RecipieIngredient> RecipieIngredients { get; set; }
+
+        public static MethodInfo SetIsDeletedQueryFilterMethod1 => SetIsDeletedQueryFilterMethod;
 
         public override int SaveChanges() => this.SaveChanges(true);
 
@@ -61,7 +72,7 @@ namespace MoiteRecepti.Data
                 .Where(et => et.ClrType != null && typeof(IDeletableEntity).IsAssignableFrom(et.ClrType));
             foreach (var deletableEntityType in deletableEntityTypes)
             {
-                var method = SetIsDeletedQueryFilterMethod.MakeGenericMethod(deletableEntityType.ClrType);
+                var method = SetIsDeletedQueryFilterMethod1.MakeGenericMethod(deletableEntityType.ClrType);
                 method.Invoke(null, new object[] { builder });
             }
 

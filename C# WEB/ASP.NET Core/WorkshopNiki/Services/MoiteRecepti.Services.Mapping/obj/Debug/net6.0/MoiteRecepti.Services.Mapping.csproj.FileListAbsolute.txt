@@ -10,3 +10,15 @@ G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\M
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.dll
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\ref\MoiteRecepti.Services.Mapping.dll
 G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\bin\Debug\net6.0\ref\MoiteRecepti.Services.Mapping.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\ref\MoiteRecepti.Services.Mapping.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.pdb

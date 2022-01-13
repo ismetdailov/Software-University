@@ -1,7 +1,7 @@
-﻿using MoiteRecepti.Data.Common.Models;
-
-namespace MoiteRecepti.Data.Models
+﻿namespace MoiteRecepti.Data.Models
 {
+    using MoiteRecepti.Data.Common.Models;
+
     public class Setting : BaseDeletableModel<int>
     {
         public string Name { get; set; }

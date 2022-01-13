@@ -10,3 +10,15 @@ G:\C# WEB\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.
 G:\C# WEB\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\ref\MoiteRecepti.Common.dll
 G:\C# WEB\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.pdb
 G:\C# WEB\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\bin\Debug\net6.0\MoiteRecepti.Common.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\bin\Debug\net6.0\MoiteRecepti.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\bin\Debug\net6.0\ref\MoiteRecepti.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\bin\Debug\net6.0\MoiteRecepti.Common.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\ref\MoiteRecepti.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\MoiteRecepti.Common\obj\Debug\net6.0\MoiteRecepti.Common.pdb

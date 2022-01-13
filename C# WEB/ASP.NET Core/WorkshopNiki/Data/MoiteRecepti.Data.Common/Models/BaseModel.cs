@@ -1,8 +1,8 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-
-namespace MoiteRecepti.Data.Common.Models
+﻿namespace MoiteRecepti.Data.Common.Models
 {
+    using System;
+    using System.ComponentModel.DataAnnotations;
+
     public abstract class BaseModel<TKey> : IAuditInfo
     {
         [Key]

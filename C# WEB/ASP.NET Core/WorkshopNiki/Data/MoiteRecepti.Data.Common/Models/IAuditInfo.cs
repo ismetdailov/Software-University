@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace MoiteRecepti.Data.Common.Models
+﻿namespace MoiteRecepti.Data.Common.Models
 {
+    using System;
+
     public interface IAuditInfo
     {
         DateTime CreatedOn { get; set; }

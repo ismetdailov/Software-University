@@ -1,13 +1,12 @@
-﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
-
-using MoiteRecepti.Data.Common.Repositories;
-
-using Microsoft.EntityFrameworkCore;
-
-namespace MoiteRecepti.Data.Repositories
+﻿namespace MoiteRecepti.Data.Repositories
 {
+    using System;
+    using System.Linq;
+    using System.Threading.Tasks;
+
+    using Microsoft.EntityFrameworkCore;
+    using MoiteRecepti.Data.Common.Repositories;
+
     public class EfRepository<TEntity> : IRepository<TEntity>
         where TEntity : class
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj": {}
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj": {}
   },
   "projects": {
-    "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj",
         "projectName": "MoiteRecepti.Web.Infrastructure",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,7 +44,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             }
           },
           "imports": [

@@ -1,26 +1,24 @@
-﻿using System;
-using System.Diagnostics;
-using System.IO;
-using System.Threading.Tasks;
-
-using MoiteRecepti.Data;
-using MoiteRecepti.Data.Common;
-using MoiteRecepti.Data.Common.Repositories;
-using MoiteRecepti.Data.Models;
-using MoiteRecepti.Data.Repositories;
-using MoiteRecepti.Data.Seeding;
-using MoiteRecepti.Services.Data;
-using MoiteRecepti.Services.Messaging;
-
-using CommandLine;
-
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
-namespace Sandbox
+﻿namespace Sandbox
 {
+    using System;
+    using System.Diagnostics;
+    using System.IO;
+    using System.Threading.Tasks;
+
+    using CommandLine;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
+    using MoiteRecepti.Data;
+    using MoiteRecepti.Data.Common;
+    using MoiteRecepti.Data.Common.Repositories;
+    using MoiteRecepti.Data.Models;
+    using MoiteRecepti.Data.Repositories;
+    using MoiteRecepti.Data.Seeding;
+    using MoiteRecepti.Services.Data;
+    using MoiteRecepti.Services.Messaging;
+
     public static class Program
     {
         public static int Main(string[] args)

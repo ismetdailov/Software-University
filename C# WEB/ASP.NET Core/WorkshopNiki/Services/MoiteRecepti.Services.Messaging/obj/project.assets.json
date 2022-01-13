@@ -80,11 +80,11 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "SendGrid/9.23.1": {
+      "SendGrid/9.25.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
-          "starkbank-ecdsa": "[1.3.1, 2.0.0)"
+          "starkbank-ecdsa": "[1.3.3, 2.0.0)"
         },
         "compile": {
           "lib/netstandard2.0/SendGrid.dll": {}
@@ -93,7 +93,7 @@
           "lib/netstandard2.0/SendGrid.dll": {}
         }
       },
-      "starkbank-ecdsa/1.3.1": {
+      "starkbank-ecdsa/1.3.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/StarkbankEcdsa.dll": {}
@@ -102,13 +102,13 @@
           "lib/netstandard2.1/StarkbankEcdsa.dll": {}
         }
       },
-      "StyleCop.Analyzers/1.2.0-beta.312": {
+      "StyleCop.Analyzers/1.2.0-beta.376": {
         "type": "package",
         "dependencies": {
-          "StyleCop.Analyzers.Unstable": "1.2.0.312"
+          "StyleCop.Analyzers.Unstable": "1.2.0.376"
         }
       },
-      "StyleCop.Analyzers.Unstable/1.2.0.312": {
+      "StyleCop.Analyzers.Unstable/1.2.0.376": {
         "type": "package"
       },
       "System.Collections/4.0.11": {
@@ -694,10 +694,10 @@
         "tools/install.ps1"
       ]
     },
-    "SendGrid/9.23.1": {
-      "sha512": "YjGu+HRJ7wUNeBrUGuJRKLvuHNx+tVEzdQalc0r/HTaNTJcAglBXKJs4n7FsFpBNV3S0Wx5m7M6Zi4fthJfEhg==",
+    "SendGrid/9.25.2": {
+      "sha512": "5C+0ThiFfaCWaA1k6zyzbqAlgEsE9uIeygw+TmvzmHJHD6XFfd7cUXq968mYmMmjI3YgLT5CkhDryzarouSIIQ==",
       "type": "package",
-      "path": "sendgrid/9.23.1",
+      "path": "sendgrid/9.25.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -713,14 +713,14 @@
         "lib/netstandard2.0/SendGrid.dll",
         "lib/netstandard2.0/SendGrid.pdb",
         "lib/netstandard2.0/SendGrid.xml",
-        "sendgrid.9.23.1.nupkg.sha512",
+        "sendgrid.9.25.2.nupkg.sha512",
         "sendgrid.nuspec"
       ]
     },
-    "starkbank-ecdsa/1.3.1": {
-      "sha512": "YV20cpN7WgEiaIuIv8ZQPgkDVximP6gHCMCTgy6+IwArDHmuDVQLJ15Qwwmgd5woETnogquD+gu4SXDZW/ffog==",
+    "starkbank-ecdsa/1.3.3": {
+      "sha512": "OblOaKb1enXn+dSp7tsx9yjwV+/BEKM9jFhshIkZTwCk7LuTFTp+wSon6rFzuPiIiTGtvVWQNUw2slHjGktJog==",
       "type": "package",
-      "path": "starkbank-ecdsa/1.3.1",
+      "path": "starkbank-ecdsa/1.3.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -729,27 +729,27 @@
         "lib/netstandard1.3/StarkbankEcdsa.dll",
         "lib/netstandard2.0/StarkbankEcdsa.dll",
         "lib/netstandard2.1/StarkbankEcdsa.dll",
-        "starkbank-ecdsa.1.3.1.nupkg.sha512",
+        "starkbank-ecdsa.1.3.3.nupkg.sha512",
         "starkbank-ecdsa.nuspec"
       ]
     },
-    "StyleCop.Analyzers/1.2.0-beta.312": {
-      "sha512": "SQCTxlYm6+d4rJ1/hNVLNryOZx6y23Z0JYp9WmUu6YtCApNMyUNJ//4yucqP7al2Jv0kwBuTRyK/4qWmGmIA/A==",
+    "StyleCop.Analyzers/1.2.0-beta.376": {
+      "sha512": "uaaVoOYWfIMoWtZsNJwV0m/GI3XAi8BA71e9iBOFDPo3TtAmcGkZ2qcxItkWb6eKI90urOPmxc35BnuhluC1IA==",
       "type": "package",
-      "path": "stylecop.analyzers/1.2.0-beta.312",
+      "path": "stylecop.analyzers/1.2.0-beta.376",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "THIRD-PARTY-NOTICES.txt",
-        "stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+        "stylecop.analyzers.1.2.0-beta.376.nupkg.sha512",
         "stylecop.analyzers.nuspec"
       ]
     },
-    "StyleCop.Analyzers.Unstable/1.2.0.312": {
-      "sha512": "MtkINha/h9vxhjRR9mYiwtwGGeJQzgshCuQkwlSGHjXdo3hJB769Jiu6Lh0/ouyTXck0gE0ZD0UCjmaY6hCwHQ==",
+    "StyleCop.Analyzers.Unstable/1.2.0.376": {
+      "sha512": "a009jDRd7zP6h+jenZ7nGjqkkFkEuxmT9FeM334cLDwodfU2x/nNcsFqw2Pjd4wVPiyX+qjLq+vhhbE3OPzFMw==",
       "type": "package",
-      "path": "stylecop.analyzers.unstable/1.2.0.312",
+      "path": "stylecop.analyzers.unstable/1.2.0.376",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -766,7 +766,7 @@
         "analyzers/dotnet/cs/pt-BR/StyleCop.Analyzers.resources.dll",
         "analyzers/dotnet/cs/ru-RU/StyleCop.Analyzers.resources.dll",
         "rulesets/StyleCopAnalyzersDefault.ruleset",
-        "stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
+        "stylecop.analyzers.unstable.1.2.0.376.nupkg.sha512",
         "stylecop.analyzers.unstable.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
@@ -2784,8 +2784,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Sendgrid >= 9.23.1",
-      "StyleCop.Analyzers >= 1.2.0-beta.312"
+      "Sendgrid >= 9.25.2",
+      "StyleCop.Analyzers >= 1.2.0-beta.376"
     ]
   },
   "packageFolders": {
@@ -2794,11 +2794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
+      "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
       "projectName": "MoiteRecepti.Services.Messaging",
-      "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
+      "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
       "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-      "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\obj\\",
+      "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2829,13 +2829,13 @@
         "dependencies": {
           "Sendgrid": {
             "target": "Package",
-            "version": "[9.23.1, )"
+            "version": "[9.25.2, )"
           },
           "StyleCop.Analyzers": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[1.2.0-beta.312, )"
+            "version": "[1.2.0-beta.376, )"
           }
         },
         "imports": [

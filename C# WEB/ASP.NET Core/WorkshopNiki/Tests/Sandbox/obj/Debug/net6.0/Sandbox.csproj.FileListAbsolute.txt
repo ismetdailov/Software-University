@@ -28,3 +28,33 @@ G:\C# WEB\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.csproj.CopyComplet
 G:\C# WEB\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.dll
 G:\C# WEB\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\ref\Sandbox.dll
 G:\C# WEB\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\appsettings.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\Sandbox.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\Sandbox.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\ref\Sandbox.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\Sandbox.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Data.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Data.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Data.Models.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Services.Data.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Services.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Services.Messaging.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Common.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Data.Common.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Data.Models.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Data.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Services.Data.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Services.Messaging.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Services.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.csproj.CopyComplete
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\ref\Sandbox.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.pdb

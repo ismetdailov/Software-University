@@ -1,13 +1,12 @@
 ﻿// ReSharper disable VirtualMemberCallInConstructor
-using System;
-using System.Collections.Generic;
-
-using MoiteRecepti.Data.Common.Models;
-
-using Microsoft.AspNetCore.Identity;
-
 namespace MoiteRecepti.Data.Models
 {
+    using System;
+    using System.Collections.Generic;
+
+    using Microsoft.AspNetCore.Identity;
+    using MoiteRecepti.Data.Common.Models;
+
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {
         public ApplicationUser()

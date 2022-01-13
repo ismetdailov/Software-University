@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {}
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {}
   },
   "projects": {
-    "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
         "projectName": "MoiteRecepti.Data.Common",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,11 +44,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0-preview.4.21253.7, )"
             }
           },
           "imports": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\MoiteRecepti.Services.Data.Tests.csproj": {}
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\MoiteRecepti.Services.Data.Tests.csproj": {}
   },
   "projects": {
-    "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
         "projectName": "MoiteRecepti.Data.Common",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,11 +44,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0-preview.4.21253.7, )"
             }
           },
           "imports": [
@@ -70,14 +70,14 @@
         }
       }
     },
-    "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj",
         "projectName": "MoiteRecepti.Data.Models",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
               }
             }
           }
@@ -112,13 +112,13 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[6.0.1, )"
             },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             }
           },
           "imports": [
@@ -140,14 +140,14 @@
         }
       }
     },
-    "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj",
         "projectName": "MoiteRecepti.Data",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,14 +164,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
               },
-              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj"
               },
-              "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj"
               }
             }
           }
@@ -188,33 +188,33 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Configuration.UserSecrets": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             }
           },
           "imports": [
@@ -236,14 +236,14 @@
         }
       }
     },
-    "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
         "projectName": "MoiteRecepti.Common",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\MoiteRecepti.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -298,14 +298,14 @@
         }
       }
     },
-    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj",
         "projectName": "MoiteRecepti.Services.Data",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -322,14 +322,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
               },
-              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj"
               },
-              "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj"
               }
             }
           }
@@ -348,7 +348,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             }
           },
           "imports": [
@@ -370,14 +370,14 @@
         }
       }
     },
-    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
         "projectName": "MoiteRecepti.Services.Mapping",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -408,13 +408,13 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[10.1.1, )"
+              "version": "[11.0.0, )"
             },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0-beta.312, )"
+              "version": "[1.2.0-beta.376, )"
             }
           },
           "imports": [
@@ -436,14 +436,14 @@
         }
       }
     },
-    "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\MoiteRecepti.Services.Data.Tests.csproj": {
+    "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\MoiteRecepti.Services.Data.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\MoiteRecepti.Services.Data.Tests.csproj",
+        "projectUniqueName": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\MoiteRecepti.Services.Data.Tests.csproj",
         "projectName": "MoiteRecepti.Services.Data.Tests",
-        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\MoiteRecepti.Services.Data.Tests.csproj",
+        "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\MoiteRecepti.Services.Data.Tests.csproj",
         "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\obj\\",
+        "outputPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Tests\\MoiteRecepti.Services.Data.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -460,11 +460,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj"
               },
-              "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj": {
-                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj"
+              "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj": {
+                "projectPath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj"
               }
             }
           }

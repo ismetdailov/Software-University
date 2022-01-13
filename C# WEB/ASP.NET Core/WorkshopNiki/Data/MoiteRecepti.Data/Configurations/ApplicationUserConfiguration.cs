@@ -1,9 +1,9 @@
-﻿using MoiteRecepti.Data.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace MoiteRecepti.Data.Configurations
+﻿namespace MoiteRecepti.Data.Configurations
 {
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.Metadata.Builders;
+    using MoiteRecepti.Data.Models;
+
     public class ApplicationUserConfiguration : IEntityTypeConfiguration<ApplicationUser>
     {
         public void Configure(EntityTypeBuilder<ApplicationUser> appUser)

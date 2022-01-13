@@ -10,3 +10,15 @@ G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecep
 G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\ref\MoiteRecepti.Data.Common.dll
 G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.pdb
 G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\bin\Debug\net6.0\MoiteRecepti.Data.Common.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\bin\Debug\net6.0\MoiteRecepti.Data.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\bin\Debug\net6.0\ref\MoiteRecepti.Data.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\bin\Debug\net6.0\MoiteRecepti.Data.Common.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\ref\MoiteRecepti.Data.Common.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Data\MoiteRecepti.Data.Common\obj\Debug\net6.0\MoiteRecepti.Data.Common.pdb

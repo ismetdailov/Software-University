@@ -10,3 +10,15 @@ G:\C# WEB\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\Moit
 G:\C# WEB\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.dll
 G:\C# WEB\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\ref\MoiteRecepti.Web.Infrastructure.dll
 G:\C# WEB\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\bin\Debug\net6.0\MoiteRecepti.Web.Infrastructure.deps.json
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\bin\Debug\net6.0\MoiteRecepti.Web.Infrastructure.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\bin\Debug\net6.0\ref\MoiteRecepti.Web.Infrastructure.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\bin\Debug\net6.0\MoiteRecepti.Web.Infrastructure.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.AssemblyInfo.cs
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\ref\MoiteRecepti.Web.Infrastructure.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Web\MoiteRecepti.Web.Infrastructure\obj\Debug\net6.0\MoiteRecepti.Web.Infrastructure.pdb

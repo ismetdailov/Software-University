@@ -1,27 +1,26 @@
-﻿using System.Reflection;
-
-using MoiteRecepti.Data;
-using MoiteRecepti.Data.Common;
-using MoiteRecepti.Data.Common.Repositories;
-using MoiteRecepti.Data.Models;
-using MoiteRecepti.Data.Repositories;
-using MoiteRecepti.Data.Seeding;
-using MoiteRecepti.Services.Data;
-using MoiteRecepti.Services.Mapping;
-using MoiteRecepti.Services.Messaging;
-using MoiteRecepti.Web.ViewModels;
-
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-
-namespace MoiteRecepti.Web
+﻿namespace MoiteRecepti.Web
 {
+    using System.Reflection;
+
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
+    using MoiteRecepti.Data;
+    using MoiteRecepti.Data.Common;
+    using MoiteRecepti.Data.Common.Repositories;
+    using MoiteRecepti.Data.Models;
+    using MoiteRecepti.Data.Repositories;
+    using MoiteRecepti.Data.Seeding;
+    using MoiteRecepti.Services.Data;
+    using MoiteRecepti.Services.Mapping;
+    using MoiteRecepti.Services.Messaging;
+    using MoiteRecepti.Web.ViewModels;
+
     public class Startup
     {
         private readonly IConfiguration configuration;
@@ -34,6 +33,7 @@ namespace MoiteRecepti.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+           // services.AddAutoMapper();
             services.AddDbContext<ApplicationDbContext>(
                 options => options.UseSqlServer(this.configuration.GetConnectionString("DefaultConnection")));
 
@@ -61,10 +61,12 @@ namespace MoiteRecepti.Web
             services.AddScoped(typeof(IDeletableEntityRepository<>), typeof(EfDeletableEntityRepository<>));
             services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
             services.AddScoped<IDbQueryRunner, DbQueryRunner>();
+            services.AddTransient<IGetCountsService, GetCountService>();
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ISettingsService, SettingsService>();
+            services.AddTransient<ICategoriesService, CategoriesService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

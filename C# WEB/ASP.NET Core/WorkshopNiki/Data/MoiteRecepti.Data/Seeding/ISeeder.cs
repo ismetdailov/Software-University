@@ -1,8 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
-
-namespace MoiteRecepti.Data.Seeding
+﻿namespace MoiteRecepti.Data.Seeding
 {
+    using System;
+    using System.Threading.Tasks;
+
     public interface ISeeder
     {
         Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider);

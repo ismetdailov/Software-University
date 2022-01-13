@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tlMVtYOt273oEdwhsRsxtS1ZqnMgZeqyxyiqsM/ILeM0ENpwmPeIM8uDw8G4yc/dAkcoRESrRmqJnwWrul37fw==",
+  "dgSpecHash": "F9723m/knadeJJyYvaBh8NUbnGlfMbD+BONWGPnnnha3AyORrroOIlphOlrnPgh0fygorB2ft0mI7PJE5vJXPw==",
   "success": true,
-  "projectFilePath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj",
+  "projectFilePath": "G:\\Software-University\\C# WEB\\ASP.NET Core\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dailo\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
-    "C:\\Users\\dailo\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+    "C:\\Users\\dailo\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.376\\stylecop.analyzers.1.2.0-beta.376.nupkg.sha512",
+    "C:\\Users\\dailo\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.376\\stylecop.analyzers.unstable.1.2.0.376.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace MoiteRecepti.Services.Data
+﻿namespace MoiteRecepti.Services.Data
 {
+    using System.Collections.Generic;
+
     public interface ISettingsService
     {
         int GetCount();

@@ -1,0 +1,911 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Web.Tests\\MoiteRecepti.Web.Tests.csproj": {}
+  },
+  "projects": {
+    "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
+        "projectName": "MoiteRecepti.Data.Common",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj",
+        "projectName": "MoiteRecepti.Data.Models",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj",
+        "projectName": "MoiteRecepti.Data",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
+        "projectName": "MoiteRecepti.Common",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.376, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj",
+        "projectName": "MoiteRecepti.Services.Data",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Common\\MoiteRecepti.Data.Common.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
+        "projectName": "MoiteRecepti.Services.Mapping",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
+        "projectName": "MoiteRecepti.Services.Messaging",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.23.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services\\MoiteRecepti.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services\\MoiteRecepti.Services.csproj",
+        "projectName": "MoiteRecepti.Services",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services\\MoiteRecepti.Services.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Web.Tests\\MoiteRecepti.Web.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Web.Tests\\MoiteRecepti.Web.Tests.csproj",
+        "projectName": "MoiteRecepti.Web.Tests",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Web.Tests\\MoiteRecepti.Web.Tests.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Tests\\MoiteRecepti.Web.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web\\MoiteRecepti.Web.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web\\MoiteRecepti.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.0-alpha07, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[90.0.4430.2400, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj",
+        "projectName": "MoiteRecepti.Web.Infrastructure",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.ViewModels\\MoiteRecepti.Web.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.ViewModels\\MoiteRecepti.Web.ViewModels.csproj",
+        "projectName": "MoiteRecepti.Web.ViewModels",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.ViewModels\\MoiteRecepti.Web.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web\\MoiteRecepti.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web\\MoiteRecepti.Web.csproj",
+        "projectName": "MoiteRecepti.Web",
+        "projectPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web\\MoiteRecepti.Web.csproj",
+        "packagesPath": "C:\\Users\\dailo\\.nuget\\packages\\",
+        "outputPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dailo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data.Models\\MoiteRecepti.Data.Models.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Data\\MoiteRecepti.Data\\MoiteRecepti.Data.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\MoiteRecepti.Common\\MoiteRecepti.Common.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Data\\MoiteRecepti.Services.Data.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Mapping\\MoiteRecepti.Services.Mapping.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services.Messaging\\MoiteRecepti.Services.Messaging.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services\\MoiteRecepti.Services.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Services\\MoiteRecepti.Services\\MoiteRecepti.Services.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.Infrastructure\\MoiteRecepti.Web.Infrastructure.csproj"
+              },
+              "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.ViewModels\\MoiteRecepti.Web.ViewModels.csproj": {
+                "projectPath": "G:\\C# WEB\\WorkshopNiki\\Web\\MoiteRecepti.Web.ViewModels\\MoiteRecepti.Web.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.449, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Web.LibraryManager.Build": {
+              "target": "Package",
+              "version": "[2.1.113, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

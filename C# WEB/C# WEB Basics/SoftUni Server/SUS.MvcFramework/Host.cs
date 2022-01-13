@@ -16,20 +16,21 @@ namespace SUS.MvcFramework
             List<Route> routeTable = new List<Route>();
             IServiceCollection serviceCollection = new ServiceCollection();
 
-            AutoRegisterStaticFiles(routeTable);
             application.ConfigureServices(serviceCollection);
-
             application.Configure(routeTable);
+
+            AutoRegisterStaticFiles(routeTable);
             AutoRegisterRoutes(routeTable, application,serviceCollection);
 
-            IHttpServer server = new HttpServer(routeTable);
 
-            Console.WriteLine("All registered routes:");
+            Console.WriteLine("Registered routes:");
             foreach (var route in routeTable)
             {
                 Console.WriteLine(($"{route.Method} {route.Path}"));
             }
-
+            Console.WriteLine();
+            Console.WriteLine("Requests:");
+            IHttpServer server = new HttpServer(routeTable);
 
             //var proces = Process.Start(@"C:\Program Files\Google\Chrome\Application\chrome.exe","http://localhost");
             await server.StartAsync(port);
@@ -79,7 +80,7 @@ namespace SUS.MvcFramework
                 var httpparameterValue =GetParameterFromRequest(request, parameter.Name);
 
                 var parameterValue = Convert.ChangeType(httpparameterValue, parameter.ParameterType);
-                if (parameterValue == null && parameter.ParameterType!=typeof(string))
+                if (parameterValue == null && parameter.ParameterType!=typeof(string) && parameter.ParameterType!=typeof(int?))
                 {
                     parameterValue = Activator.CreateInstance(parameter.ParameterType);
                     var properties = parameter.ParameterType.GetProperties();
@@ -136,11 +137,7 @@ namespace SUS.MvcFramework
                     };
                     return new HttpResponse(contentType, fileContent, HttpStatusCode.Ok);
                 }));
-            }
-            Console.WriteLine("All Register routes");
-            foreach (var route in routeTable)
-            {
-                Console.WriteLine($"{route.Method} {route.Path}");
+
             }
         }
     }

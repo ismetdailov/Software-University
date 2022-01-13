@@ -1,0 +1,12 @@
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.deps.json
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\bin\Debug\net6.0\ref\MoiteRecepti.Services.Mapping.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\bin\Debug\net6.0\MoiteRecepti.Services.Mapping.pdb
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.csproj.AssemblyReference.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.AssemblyInfoInputs.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.AssemblyInfo.cs
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.csproj.CoreCompileInputs.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\ref\MoiteRecepti.Services.Mapping.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Mapping\obj\Debug\net6.0\MoiteRecepti.Services.Mapping.pdb

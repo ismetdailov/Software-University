@@ -1,23 +1,21 @@
 ﻿using MyFirstMvcApp.Data;
+using MyFirstMvcApp.Servises;
 using MyFirstMvcApp.ViewModels;
 using MyFirstMvcApp.ViewModels.Cards;
 using SUS.HTTP;
 using SUS.MvcFramework;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyFirstMvcApp.Controllers
 {
     public class CardsController : Controller
     {
-        private ApplicationDbContext db;
+        private readonly ICardsService cardsService;
 
-        public CardsController(ApplicationDbContext db)
+        public CardsController(ICardsService cardsService)
         {
-            this.db = db;
+            this.cardsService = cardsService;
         }
         public HttpResponse Add()
         {
@@ -27,49 +25,54 @@ namespace MyFirstMvcApp.Controllers
             }
             return this.View();
         }
-        [HttpPost("/Cards/Add")]
-        public HttpResponse DoAdd(AddCardInputModel model)
+        [HttpPost]
+        public HttpResponse Add(AddCardInputModel model)
         {
             if (!this.IsUserSignedIn())
             {
                 this.Redirect("/Users/Login");
             }
             //var dbContext = new ApplicationDbContext();
-            if (this.Request.FormData["name"].Length <=5)
+            if (string.IsNullOrEmpty(model.Name)|| model.Name.Length <5 || model.Name.Length>15)
             {
-                return this.Error("Name should be at least 5 charecters long.");
+                return this.Error("Name should be at betwee 5 and 15 charecters long.");
             }
-            this.db.Cards.Add(new Card
+            if (string.IsNullOrWhiteSpace(model.Image))
             {
-                Attack =model.Attack,
-                Health = model.Health,
-                Name = model.Name,
-                Description = model.Description,
-                ImageUrl = model.Image,
-                Keyword = model.Keyword,
-            }) ;
-            //var viewModel = new DoAddViewModel
-            //{
-            //    Attack = int.Parse(this.Request.FormData["attack"]),
-            //    Health = int.Parse(this.Request.FormData["health"]),
-            //};
-            //return this.View();
-            this.db.SaveChanges();
+                return this.Error("The image i required!");
+            }
+            if (!Uri.TryCreate(model.Image, UriKind.Absolute, out _))
+            {
+                return this.Error("Image url dhould be valid!");
+            }
+            if (string.IsNullOrWhiteSpace(model.Keyword))
+            {
+                return this.Error("Keyword is required!");
+            }
+            if (model.Attack <0 )
+            {
+                return this.Error("Attack should be non-negative integer.");
+            }
+            if (model.Health<0)
+            {
+                return this.Error("Health should be non-negative integer.");
+            }
+            if (string.IsNullOrWhiteSpace(model.Description) || model.Description.Length>200)
+            {
+                return this.Error("Description is required and its length should be most 200 charecters");
+            }
+            this.cardsService.AddCard(model);
             return this.Redirect("/Cards/All");
         }
         public HttpResponse All()
         {
-           // var db = new ApplicationDbContext();
-            var cardsViewModel = this.db.Cards.Select(x => new CardViewModel
+            // var db = new ApplicationDbContext();if (!this.IsUserSignedIn())
+            if (!this.IsUserSignedIn())
             {
-                Name = x.Name,
-                Description = x.Description,
-                Attack = x.Attack,
-                Health = x.Health,
-                ImageUrl = x.ImageUrl,
-                Type = x.Keyword,
-            }).ToList();
-            return this.View(new AllCardsViewModel { Cards = cardsViewModel });
+                this.Redirect("/Users/Login");
+            }
+            var cardsViewModel = this.cardsService.GetAll();
+            return this.View(cardsViewModel);
         }
         public HttpResponse Collection()
         {
@@ -77,7 +80,29 @@ namespace MyFirstMvcApp.Controllers
             {
                 this.Redirect("/Users/Login");
             }
-            return this.View();
+        
+            var viewModel = this.cardsService.GeByUserId(this.GetUserId());
+            return this.View(viewModel);
+        }
+        public HttpResponse AddToCollection(int cardId)
+        {
+            if (!this.IsUserSignedIn())
+            {
+                this.Redirect("/Users/Login");
+            }
+            var userId = this.GetUserId();
+            this.cardsService.AddCardToUserCollection(userId, cardId);
+            return this.Redirect("/Cards/All");
+        }
+        public HttpResponse RemoveFromCollection(int cardId)
+        {
+            if (!this.IsUserSignedIn())
+            {
+                this.Redirect("/Users/Login");
+            }
+            var userId = this.GetUserId();
+            this.cardsService.RemoveCardFromUserCollection(userId, cardId);
+            return this.Redirect("/Cards/Collection");
         }
     }
 }

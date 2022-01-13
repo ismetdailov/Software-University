@@ -1,0 +1,12 @@
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\bin\Debug\net6.0\MoiteRecepti.Services.Messaging.deps.json
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\bin\Debug\net6.0\MoiteRecepti.Services.Messaging.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\bin\Debug\net6.0\ref\MoiteRecepti.Services.Messaging.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\bin\Debug\net6.0\MoiteRecepti.Services.Messaging.pdb
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\obj\Debug\net6.0\MoiteRecepti.Services.Messaging.csproj.AssemblyReference.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\obj\Debug\net6.0\MoiteRecepti.Services.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\obj\Debug\net6.0\MoiteRecepti.Services.Messaging.AssemblyInfoInputs.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\obj\Debug\net6.0\MoiteRecepti.Services.Messaging.AssemblyInfo.cs
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\obj\Debug\net6.0\MoiteRecepti.Services.Messaging.csproj.CoreCompileInputs.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\obj\Debug\net6.0\MoiteRecepti.Services.Messaging.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\obj\Debug\net6.0\ref\MoiteRecepti.Services.Messaging.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services.Messaging\obj\Debug\net6.0\MoiteRecepti.Services.Messaging.pdb

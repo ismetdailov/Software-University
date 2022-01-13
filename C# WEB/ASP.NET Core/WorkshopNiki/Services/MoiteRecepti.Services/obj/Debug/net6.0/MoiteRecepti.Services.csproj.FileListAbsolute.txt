@@ -1,0 +1,12 @@
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\bin\Debug\net6.0\MoiteRecepti.Services.deps.json
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\bin\Debug\net6.0\MoiteRecepti.Services.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\bin\Debug\net6.0\ref\MoiteRecepti.Services.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\bin\Debug\net6.0\MoiteRecepti.Services.pdb
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.csproj.AssemblyReference.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.AssemblyInfoInputs.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.AssemblyInfo.cs
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.csproj.CoreCompileInputs.cache
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\ref\MoiteRecepti.Services.dll
+G:\C# WEB\WorkshopNiki\Services\MoiteRecepti.Services\obj\Debug\net6.0\MoiteRecepti.Services.pdb

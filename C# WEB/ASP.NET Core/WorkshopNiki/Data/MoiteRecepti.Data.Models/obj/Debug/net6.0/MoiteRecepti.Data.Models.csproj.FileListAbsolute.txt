@@ -1,0 +1,15 @@
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Models.deps.json
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Models.dll
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\ref\MoiteRecepti.Data.Models.dll
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Models.pdb
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Common.dll
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\bin\Debug\net6.0\MoiteRecepti.Data.Common.pdb
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.csproj.AssemblyReference.cache
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.AssemblyInfoInputs.cache
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.AssemblyInfo.cs
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.csproj.CoreCompileInputs.cache
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.csproj.CopyComplete
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.dll
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\ref\MoiteRecepti.Data.Models.dll
+G:\C# WEB\WorkshopNiki\Data\MoiteRecepti.Data.Models\obj\Debug\net6.0\MoiteRecepti.Data.Models.pdb

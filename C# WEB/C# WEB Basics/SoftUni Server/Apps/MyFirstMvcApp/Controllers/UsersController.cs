@@ -1,14 +1,8 @@
 ﻿using MyFirstMvcApp.Servises;
 using SUS.HTTP;
 using SUS.MvcFramework;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace MyFirstMvcApp.Controllers
 {
@@ -29,15 +23,15 @@ namespace MyFirstMvcApp.Controllers
             }
             return this.View();
         }
-        [HttpPost("/Users/Login")]
-        public HttpResponse DoLogin()
+        [HttpPost]
+        public HttpResponse Login(string username,string password) 
         {
             if (this.IsUserSignedIn())
             {
                 return this.Redirect("/");
             }
-            var username = this.Request.FormData["username"];
-            var password = this.Request.FormData["password"];
+            //var username = this.Request.FormData["username"];
+            //var password = this.Request.FormData["password"];
             var userId = this.usersService.GetUserId(username, password);
             if (userId ==null)
             {
@@ -57,8 +51,8 @@ namespace MyFirstMvcApp.Controllers
 
         }
 
-        [HttpPost("/Users/Register")]
-        public HttpResponse DoRegister(string username, string email, string password, string confirmPassword)
+        [HttpPost]
+        public HttpResponse Register(string username, string email, string password, string confirmPassword)
         {
             if (this.IsUserSignedIn())
             {

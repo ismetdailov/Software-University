@@ -32,5 +32,6 @@ namespace SUS.HTTP
 
             return cookieBuilder.ToString();
         }
+        //domain secure
     }
 }

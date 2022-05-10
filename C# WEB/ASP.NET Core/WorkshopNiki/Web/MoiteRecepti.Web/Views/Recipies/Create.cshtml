@@ -39,18 +39,19 @@
         <select asp-for="CategoryId" class="form-control" asp-items="categoryItems"></select>
         <span asp-validation-for="CategoryId" class="text-danger"></span>
     </div>
-    <div class="form-control" id="IngredientsContainer">
+    <div  id="IngredientsContainer">
         <label asp-for="Ingredients"></label>
-        <button class="btn btn-success"onclick="AddMoreIngredients">+</button>
+        <a class="btn btn-success" onclick="AddMoreIngredients()">+</a>
     </div>
     <input type="submit" class="btn btn-primary" />
 </form>
 @section Scripts{
 <script>
+    var ingredientIndex
     function AddMoreIngredients(){
-        var ingredientIndex
-     //  var newInputs= $("<input type='text' name='' id=''/> Quantity <input type='text' name='' id''/>");
-       $("#IngredientsContainer").append("<div class='form-control'> Name: '<input type='text' name=''/> <div class='form-control'> Quality: '<input type='text' name='' id=''/>");
+       $("#IngredientsContainer")
+       .append("<div class='form-control'>Name: <input type='text' name='Ingredients["+ingredientIndex+"].IngredientName'/>  Quantity: <input type='text' name='Ingredients["+ingredientIndex+"].Quantity'/></div>");
+       ingredientIndex++; 
     }
 </script>
 }

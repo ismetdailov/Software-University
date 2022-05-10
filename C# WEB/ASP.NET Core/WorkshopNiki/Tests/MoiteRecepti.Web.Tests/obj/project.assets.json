@@ -4101,7 +4101,8 @@
         "dependencies": {
           "MoiteRecepti.Data.Common": "1.0.0",
           "MoiteRecepti.Data.Models": "1.0.0",
-          "MoiteRecepti.Services.Mapping": "1.0.0"
+          "MoiteRecepti.Services.Mapping": "1.0.0",
+          "MoiteRecepti.Web.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MoiteRecepti.Services.Data.dll": {}
@@ -4144,6 +4145,7 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.1",
           "Microsoft.AspNetCore.Identity.UI": "6.0.1",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.1",
           "Microsoft.Web.LibraryManager.Build": "2.1.161",
           "MoiteRecepti.Common": "1.0.0",

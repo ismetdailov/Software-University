@@ -58,3 +58,5 @@ G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.dll
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\ref\Sandbox.dll
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\obj\Debug\net6.0\Sandbox.pdb
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\Sandbox\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.pdb

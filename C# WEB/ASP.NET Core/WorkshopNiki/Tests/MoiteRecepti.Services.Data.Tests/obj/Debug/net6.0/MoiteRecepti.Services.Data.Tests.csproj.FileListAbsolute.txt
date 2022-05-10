@@ -338,3 +338,12 @@ G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Servi
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\obj\Debug\net6.0\ref\MoiteRecepti.Services.Data.Tests.dll
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\obj\Debug\net6.0\MoiteRecepti.Services.Data.Tests.pdb
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\obj\Debug\net6.0\MoiteRecepti.Services.Data.Tests.genruntimeconfig.cache
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\System.Web.Mvc.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\System.Web.Razor.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\System.Web.Helpers.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\System.Web.WebPages.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.dll
+G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Tests\MoiteRecepti.Services.Data.Tests\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.pdb

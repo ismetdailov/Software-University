@@ -36,5 +36,3 @@ G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Se
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.dll
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\ref\MoiteRecepti.Services.Data.dll
 G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\obj\Debug\net6.0\MoiteRecepti.Services.Data.pdb
-G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.dll
-G:\Software-University\C# WEB\ASP.NET Core\WorkshopNiki\Services\MoiteRecepti.Services.Data\bin\Debug\net6.0\MoiteRecepti.Web.ViewModels.pdb

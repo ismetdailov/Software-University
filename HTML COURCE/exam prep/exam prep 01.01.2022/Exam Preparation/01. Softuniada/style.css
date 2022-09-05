@@ -1,0 +1,18 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500;600&display=swap');");
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3 {
+
+    font-family: 'Montserrat', sans-serif;
+}
+.calendar{
+    max-width: 600px;
+    margin-inline: auto ;
+}
+.calendar__topbar {
+    background-color: #ffa200;
+}

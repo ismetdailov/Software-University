@@ -1,0 +1,38 @@
+.form-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-row > div {
+  margin-right: 10px;
+}
+.form-row > div:last-of-type {
+  margin-right: 0;
+}
+
+.form-row > ul {
+  width: 100%;
+}
+
+.animation {
+  animation: slide-down 300ms ease-out forwards;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    display: block;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

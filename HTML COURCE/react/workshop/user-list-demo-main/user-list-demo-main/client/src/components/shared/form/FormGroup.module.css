@@ -1,0 +1,86 @@
+.group {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.control {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.control span {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: #f7f7f7;
+  border: 1px solid #d5dee6;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.control.valid span {
+  border: 1px solid #0e683fe8;
+  border-right-color: #d5dee6;
+}
+.control.invalid span {
+  border: 1px solid #d9534f;
+  border-right-color: #d5dee6;
+}
+
+.icon {
+  width: 28px;
+  min-width: 28px;
+  display: inline-block;
+  font-size: 1.2em;
+  color: #000000;
+}
+
+.control.invalid .icon {
+  color: #d9534f;
+}
+
+.control.valid .icon {
+  color: #0e683fe8;
+}
+
+.control input,
+.control textarea {
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid #d5dee6;
+  border-left: none;
+  outline: none;
+  height: 50px;
+  padding: 6px 12px;
+  background-color: #f7f7f7;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+.control input:focus,
+.control input:active,
+.control textarea:focus,
+.control textarea:active {
+  background-color: #ffffff;
+}
+
+.control.invalid input,
+.control.invalid textarea {
+  border: 1px solid #d9534f;
+  border-left: none;
+}
+.control.valid input,
+.control.valid textarea {
+  border: 1px solid #0e683fe8;
+  border-left: none;
+}
+
+.error {
+  color: #d9534f;
+  min-height: 20px;
+}

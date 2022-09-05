@@ -1,0 +1,29 @@
+@media screen and(max-width: 600px){
+    .left-to-right{
+        
+    }
+    article {
+        justify-content: center;
+        text-align: center;
+        border-radius: 1115%;
+        background: url(./spot-bg-01.jpg) no-repeat center 100px;
+         background-size: 400px auto;
+         margin-top: 80%;
+    }
+    .img {
+        position: relative;
+    }
+    main section:nth-child(2) button,
+    main section:nth-child(4) button {
+        display: none;
+    }
+    button {
+        display: none;
+    }
+    .left-to-right{
+        background-color: aqua;
+    }
+    p {
+        background-color: blue;
+    }
+}

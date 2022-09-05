@@ -1,0 +1,37 @@
+.actions {
+  position: relative;
+  width: 100%;
+}
+
+.error-container {
+  text-align: center;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.buttons {
+  display: flex;
+}
+
+.left .buttons {
+  justify-content: flex-start;
+}
+.center .buttons {
+  justify-content: center;
+}
+.right .buttons {
+  justify-content: flex-end;
+}
+
+.buttons button:first-of-type {
+  margin-right: 20px;
+}
+
+@keyframes fadeOut {
+  to {
+    visibility: hidden;
+  }
+}

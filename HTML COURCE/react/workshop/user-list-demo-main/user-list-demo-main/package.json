@@ -1,0 +1,11 @@
+{
+  "name": "user-list-project",
+  "version": "1.0.0",
+  "description": "Demo project for Softuni",
+  "scripts": {
+    "start": "(cd server && npm install && start npm run start) & (cd ../client && npm install && start npm run start)"
+  },
+  "keywords": [],
+  "author": "Mihail Valkov",
+  "license": "ISC"
+}

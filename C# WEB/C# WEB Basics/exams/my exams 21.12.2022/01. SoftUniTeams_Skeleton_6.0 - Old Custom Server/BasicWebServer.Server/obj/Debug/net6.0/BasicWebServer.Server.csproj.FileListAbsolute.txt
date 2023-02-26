@@ -1,0 +1,12 @@
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\bin\Debug\net6.0\BasicWebServer.Server.deps.json
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\bin\Debug\net6.0\BasicWebServer.Server.dll
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\bin\Debug\net6.0\BasicWebServer.Server.pdb
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.csproj.AssemblyReference.cache
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.GeneratedMSBuildEditorConfig.editorconfig
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.AssemblyInfoInputs.cache
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.AssemblyInfo.cs
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.csproj.CoreCompileInputs.cache
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.dll
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\refint\BasicWebServer.Server.dll
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.pdb
+G:\Software-University\C# WEB\C# WEB Basics\exams\my exams 21.12.2022\01. SoftUniTeams_Skeleton_6.0 - Old Custom Server\BasicWebServer.Server\obj\Debug\net6.0\ref\BasicWebServer.Server.dll

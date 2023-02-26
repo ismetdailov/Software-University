@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Teams.Data.Models
+{
+    public class Contact
+    {
+        public int id { get; set; }
+
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Address { get; set; }
+        public string Website { get; set; }
+        public ICollection<UserContact> UsersConacts { get; set; } = new HashSet<UserContact>();
+
+    }
+}

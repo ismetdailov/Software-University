@@ -1,0 +1,34 @@
+/*
+#1B3B6f - Dark Blue
+#065A82  - Blue
+#1C7293 - Light Blue
+#9EB3C2   - Gray
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+#header {
+    background-color: #1b3b6f;
+    padding: 0.5rem 1.25rem;
+}
+
+#nav .nav-list{
+    width: 342px;
+    margin:  0 auto;
+}
+#nav .nav-list .nav-item {
+    display: inline-block;
+}
+
+#nav .nav-list .nav-item .link {
+    color: #9EB3C2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
